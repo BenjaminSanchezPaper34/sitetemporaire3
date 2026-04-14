@@ -1,0 +1,24 @@
+"use client";
+
+import { useScrollReveal } from "@/lib/useScrollReveal";
+import Hero from "@/components/home/Hero";
+import Categories from "@/components/home/Categories";
+import Brands from "@/components/home/Brands";
+import Trust from "@/components/home/Trust";
+import Testimonials from "@/components/home/Testimonials";
+import CTA from "@/components/home/CTA";
+
+export default function Home() {
+  useScrollReveal();
+
+  return (
+    <>
+      <Hero />
+      <Categories />
+      <Trust />
+      <Brands />
+      <Testimonials />
+      <CTA />
+    </>
+  );
+}
