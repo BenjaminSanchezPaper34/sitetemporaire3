@@ -34,13 +34,13 @@ export default function Navbar() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 group">
-              <span className="text-lg font-bold tracking-tight text-white">
-                MATOS IMPORT
-              </span>
-              <span className="text-[10px] font-medium text-gray-400 leading-none mt-0.5">
-                by Jeff
-              </span>
+            <Link href="/" className="flex items-center group">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logos/logo-concession.svg"
+                alt="Matos Import by Jeff"
+                className="h-8 w-auto"
+              />
             </Link>
 
             {/* Desktop nav */}

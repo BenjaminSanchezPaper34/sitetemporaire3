@@ -30,13 +30,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-lg font-bold tracking-tight text-white">
-                MATOS IMPORT
-              </span>
-              <span className="text-[10px] font-medium text-gray-400 leading-none mt-0.5">
-                by Jeff
-              </span>
+            <div className="mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logos/logo-concession.svg"
+                alt="Matos Import by Jeff"
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-sm leading-relaxed text-gray-400 mb-6">
               Leader européen depuis 1991 dans la distribution de pièces pour jet-ski.
