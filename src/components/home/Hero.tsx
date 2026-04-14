@@ -10,62 +10,24 @@ const YEARS = Array.from({ length: 30 }, (_, i) => `${2026 - i}`);
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
-  const titleRef = useRef<HTMLHeadingElement>(null);
-  const subtitleRef = useRef<HTMLParagraphElement>(null);
-  const searchRef = useRef<HTMLDivElement>(null);
-  const scrollIndicatorRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     const ctx = gsap.context(() => {
-      const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
-
-      tl.fromTo(
-        titleRef.current,
-        { opacity: 0, y: 40 },
-        { opacity: 1, y: 0, duration: 1, delay: 0.3 }
-      )
-        .fromTo(
-          subtitleRef.current,
-          { opacity: 0, y: 30 },
-          { opacity: 1, y: 0, duration: 0.8 },
-          "-=0.5"
-        )
-        .fromTo(
-          searchRef.current,
-          { opacity: 0, y: 20 },
-          { opacity: 1, y: 0, duration: 0.8 },
-          "-=0.4"
-        )
-        .fromTo(
-          scrollIndicatorRef.current,
-          { opacity: 0 },
-          { opacity: 1, duration: 0.6 },
-          "-=0.2"
-        );
-
-      gsap.to(titleRef.current, {
+      // Single scroll-driven parallax: fade out + move up as user scrolls
+      gsap.to(contentRef.current, {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top top",
-          end: "60% top",
-          scrub: true,
+          end: "bottom top",
+          scrub: 0.5,
         },
         opacity: 0,
-        scale: 0.95,
-        y: -50,
-      });
-
-      gsap.to(subtitleRef.current, {
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "10% top",
-          end: "50% top",
-          scrub: true,
-        },
-        opacity: 0,
-        y: -30,
+        y: -80,
+        scale: 0.97,
+        ease: "none",
       });
     }, sectionRef);
 
@@ -85,7 +47,6 @@ export default function Hero() {
         loop
         playsInline
         preload="auto"
-        poster=""
       >
         <source src="/videos/hero-desktop.webm" type="video/webm" />
         <source src="/videos/hero-desktop.mp4" type="video/mp4" />
@@ -99,13 +60,12 @@ export default function Hero() {
         loop
         playsInline
         preload="auto"
-        poster=""
       >
         <source src="/videos/hero-mobile.webm" type="video/webm" />
         <source src="/videos/hero-mobile.mp4" type="video/mp4" />
       </video>
 
-      {/* Dark overlay for readability */}
+      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60" />
 
       {/* Gradient edges */}
@@ -115,8 +75,11 @@ export default function Hero() {
         <div className="absolute top-1/3 left-1/3 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-gold/5 blur-[120px]" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
+      {/* Content — CSS entrance animation, GSAP scroll parallax */}
+      <div
+        ref={contentRef}
+        className="relative z-10 mx-auto max-w-5xl px-6 text-center hero-content"
+      >
         {/* Badge */}
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/40 px-4 py-1.5 nav-blur">
           <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
@@ -126,26 +89,20 @@ export default function Hero() {
         </div>
 
         {/* Title */}
-        <h1
-          ref={titleRef}
-          className="text-[clamp(36px,8vw,88px)] font-bold leading-[0.95] tracking-[-0.03em] text-white drop-shadow-lg"
-        >
+        <h1 className="text-[clamp(36px,8vw,88px)] font-bold leading-[0.95] tracking-[-0.03em] text-white drop-shadow-lg">
           Votre expert
           <br />
           <span className="text-accent">jet-ski</span> en France
         </h1>
 
         {/* Subtitle */}
-        <p
-          ref={subtitleRef}
-          className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-gray-200 md:text-xl drop-shadow-md"
-        >
+        <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-gray-200 md:text-xl drop-shadow-md">
           Pièces détachées, équipements et accessoires pour toutes marques.
           Plus de 38 000 références disponibles.
         </p>
 
         {/* Compatibility search */}
-        <div ref={searchRef} className="mt-10 mx-auto max-w-2xl">
+        <div className="mt-10 mx-auto max-w-2xl">
           <div className="rounded-2xl border border-white/15 bg-black/50 p-2 nav-blur">
             <div className="flex flex-col gap-2 sm:flex-row">
               <select
@@ -198,10 +155,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div
-        ref={scrollIndicatorRef}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
-      >
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2">
         <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400 drop-shadow-sm">
           Découvrir
         </span>
