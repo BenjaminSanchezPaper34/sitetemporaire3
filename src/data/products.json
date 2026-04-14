@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "name": "WEAR RING - Bague d'usure SeaDoo RXT X 300 GTX LTD 300",
+    "slug": "wear-ring-seadoo-300",
+    "price": 98.00,
+    "category": "Transmission",
+    "subcategory": "Bagues d'usure",
+    "reference": "267000917",
+    "brand": "BRP",
+    "description": "Bague d'usure d'origine pour turbine Sea-Doo. Pièce de remplacement conforme aux spécifications constructeur, essentielle pour maintenir les performances de propulsion.",
+    "compatibility": [
+      "Sea-Doo GTX LTD 300 (2016-2024)",
+      "Sea-Doo RXP X 300 (2016-2024)",
+      "Sea-Doo RXT X 300 (2016-2024)",
+      "Sea-Doo GTR 230 (2020-2024)",
+      "Sea-Doo GTX 230 (2020-2024)",
+      "Sea-Doo Wake Pro 230 (2020-2024)",
+      "Sea-Doo Explorer 300 (2024)",
+      "Sea-Doo RXP X 325 / RXT X 325 (2024)"
+    ],
+    "inStock": true,
+    "stockQuantity": 16,
+    "delivery": "1-2 jours",
+    "weight": "0.5 kg",
+    "images": [
+      "https://www.matosimport.com/28143-large_default/bague-d-usure-seadoo-rxtx-300-gtx-ltd-300-rxprxt-300.jpg",
+      "https://www.matosimport.com/31280-large_default/bague-d-usure-seadoo-rxtx-300-gtx-ltd-300-rxprxt-300.jpg",
+      "https://www.matosimport.com/57249-large_default/bague-d-usure-seadoo-rxtx-300-gtx-ltd-300-rxprxt-300.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/accueil/7836-bague-d-usure-seadoo.html"
+  },
+  {
+    "id": 2,
+    "name": "Kit vidange Sea-Doo 5W40 moteur 1500cc/1630cc",
+    "slug": "kit-vidange-seadoo-5w40-1500cc",
+    "price": 95.82,
+    "category": "Entretien",
+    "subcategory": "Kits de vidange",
+    "reference": "9779950",
+    "brand": "BRP",
+    "description": "Kit de vidange complet avec huile 100% synthétique 5W-40 formulée pour usage nautique intensif, filtre à huile à mailles renforcées et 2 joints toriques. Capacité : environ 3.3 litres.",
+    "compatibility": [
+      "Sea-Doo GTI (2006-2024)",
+      "Sea-Doo GTR (2012-2024)",
+      "Sea-Doo GTX (2006-2024)",
+      "Sea-Doo RXP-X (2006-2024)",
+      "Sea-Doo RXT-X (2006-2024)",
+      "Sea-Doo Wake (2006-2024)",
+      "Sea-Doo Fish Pro (2019-2024)"
+    ],
+    "inStock": true,
+    "stockQuantity": 8,
+    "delivery": "1-2 jours",
+    "weight": "4 kg",
+    "images": [
+      "https://www.matosimport.com/31123-large_default/kit-vidange-sea-doo-ens-chang-huile-5w40-4t-1500cc-1630cc.jpg",
+      "https://www.matosimport.com/56322-large_default/kit-vidange-sea-doo-ens-chang-huile-5w40-4t-1500cc-1630cc.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/entretiens/15239-kit-vidange-sea-doo.html"
+  },
+  {
+    "id": 3,
+    "name": "Bougie DCPR8E NGK - Sea-Doo GTX / RXP / RXT / GTI",
+    "slug": "bougie-dcpr8e-ngk-seadoo",
+    "price": 6.95,
+    "category": "Electricite",
+    "subcategory": "Bougies",
+    "reference": "DCPR8E/715900642",
+    "brand": "NGK",
+    "description": "Bougie d'allumage NGK DCPR8E pour moteurs Sea-Doo 4-TEC. Technologie triple scellement, noyau en cuivre massif pour un transfert optimal de l'étincelle et de la chaleur. Coque traitée zinc-chromate anti-corrosion.",
+    "compatibility": [
+      "Sea-Doo GTX 4-TEC (2002-2015)",
+      "Sea-Doo RXP (2004-2015)",
+      "Sea-Doo RXT (2005-2015)",
+      "Sea-Doo GTI (2006-2015)",
+      "Sea-Doo Sportster (2003-2006)",
+      "Sea-Doo Challenger (2005-2012)",
+      "Sea-Doo Wake (2004-2015)"
+    ],
+    "inStock": true,
+    "stockQuantity": 59,
+    "delivery": "1-2 jours",
+    "weight": "0.1 kg",
+    "images": [
+      "https://www.matosimport.com/29872-large_default/spark-plug-dcpr8e-gti-rxt-215hp-rxp-215hp-gtx-155hp.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/bougies/15049-spark-plug-dcpr8e-gti-rxt-215hp.html"
+  },
+  {
+    "id": 4,
+    "name": "Bougie PMR9B NGK Kawasaki Ultra 250X / 260X / 300X / 310X",
+    "slug": "bougie-pmr9b-ngk-kawasaki",
+    "price": 27.94,
+    "category": "Electricite",
+    "subcategory": "Bougies",
+    "reference": "PMR9B",
+    "brand": "NGK",
+    "description": "Bougie d'allumage NGK PMR9B pour moteurs Kawasaki Ultra. Triple scellement, noyau cuivre massif, coque zinc-chromate résistante à la corrosion marine.",
+    "compatibility": [
+      "Kawasaki Ultra 250X (2007-2008)",
+      "Kawasaki Ultra 260X / 260LX (2009-2010)",
+      "Kawasaki Ultra 300X / 300LX (2011-2013)",
+      "Kawasaki Ultra 310X / 310LX / 310R (2014-2024)"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "0.1 kg",
+    "images": [
+      "https://www.matosimport.com/30377-large_default/bougie-pmr9b-ngk-kawasaki-250x-260x-260lx-300x-300lx-310x-310lx-310r-ref-920703707-1687.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/bougies/2382-bougie-pmr9b-ngk-kawasaki.html"
+  },
+  {
+    "id": 5,
+    "name": "Filtre à huile Sea-Doo 4-TEC GTI / GTX / RXT / RXP / GTR",
+    "slug": "filtre-huile-seadoo-4tec",
+    "price": 13.18,
+    "category": "Moteur",
+    "subcategory": "Filtres à huile",
+    "reference": "420956741",
+    "brand": "Sea-Doo",
+    "description": "Filtre à huile pour moteurs Sea-Doo 1500cc 4-TEC. Élimine les impuretés pour préserver la longévité du moteur. Remplacement régulier recommandé à chaque vidange.",
+    "compatibility": [
+      "Sea-Doo GTI (2002-2017)",
+      "Sea-Doo GTX (2002-2017)",
+      "Sea-Doo RXP (2004-2017)",
+      "Sea-Doo RXT (2005-2017)",
+      "Sea-Doo GTR (2012-2017)",
+      "Sea-Doo Speedster (2003-2012)",
+      "Sea-Doo Challenger (2005-2012)"
+    ],
+    "inStock": true,
+    "stockQuantity": 74,
+    "delivery": "1-2 jours",
+    "weight": "0.15 kg",
+    "images": [
+      "https://www.matosimport.com/31291-large_default/filtre-a-huile-gtigtxrxtrxpgtr-seadoo-4tec.jpg",
+      "https://www.matosimport.com/37796-large_default/filtre-a-huile-gtigtxrxtrxpgtr-seadoo-4tec.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/filtre-a-huile/1492-filtre-a-huile-gtigtx.html"
+  },
+  {
+    "id": 6,
+    "name": "Bidon d'essence VP Racing 20L",
+    "slug": "bidon-essence-vp-racing",
+    "price": 58.00,
+    "category": "Accessoires",
+    "subcategory": "Bidons",
+    "reference": "VP-BIDON",
+    "brand": "VP Racing",
+    "description": "Bidon ergonomique en plastique anti-UV pour ne pas oxyder le carburant. Double joints caoutchouc empêchant l'évaporation. Bouchon incassable avec tube deluxe et filtre intégré. Hauteur : 54cm (sans tube) / 90cm (avec tube).",
+    "compatibility": [],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "0.1 kg",
+    "images": [
+      "https://www.matosimport.com/28175-large_default/bidon-d-essence-vp-racing.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/accessoires/7775-bidon-d-essence-vp-racing.html"
+  },
+  {
+    "id": 7,
+    "name": "Huile de remisage hivernage toutes marques",
+    "slug": "huile-remisage-hivernage",
+    "price": 12.00,
+    "category": "Entretien",
+    "subcategory": "Huiles",
+    "reference": "779173",
+    "brand": "BRP",
+    "description": "Huile spéciale à utiliser lors de l'hivernage de votre motomarine. Protège les composants internes du moteur contre la rouille liée aux changements de température et à l'humidité.",
+    "compatibility": [
+      "Sea-Doo (tous modèles)",
+      "Yamaha (tous modèles)",
+      "Kawasaki (tous modèles)",
+      "Polaris (tous modèles)",
+      "Moteurs 2 temps et 4 temps"
+    ],
+    "inStock": true,
+    "stockQuantity": 9,
+    "delivery": "1-2 jours",
+    "weight": "0.8 kg",
+    "images": [
+      "https://www.matosimport.com/31269-large_default/huile-de-remisage-hivernage-toutes-marques.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/huiles/4682-huile-de-remisage-hivernage.html"
+  },
+  {
+    "id": 8,
+    "name": "Stabilisateur d'essence hivernage 236ml",
+    "slug": "stabilisateur-essence-236ml",
+    "price": 11.90,
+    "category": "Entretien",
+    "subcategory": "Stabilisateurs d'essence",
+    "reference": "9779183",
+    "brand": "BRP",
+    "description": "Additif protégeant contre la contamination du carburant et l'accumulation de résidus dans le réservoir. Pour moteurs 2 temps et 4 temps. À utiliser avant tout stockage prolongé de la motomarine.",
+    "compatibility": [
+      "Sea-Doo (tous modèles)",
+      "Yamaha (tous modèles)",
+      "Kawasaki (tous modèles)",
+      "Polaris (tous modèles)"
+    ],
+    "inStock": true,
+    "stockQuantity": 15,
+    "delivery": "1-2 jours",
+    "weight": "1.1 kg",
+    "images": [
+      "https://www.matosimport.com/31271-large_default/stabilisateur-d-essence-hivernage-toutes-marques.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/stabilisateurs-d-essence/4680-stabilisateur.html"
+  },
+  {
+    "id": 9,
+    "name": "Batterie 19Ah Sea-Doo 2T / Yamaha sans entretien",
+    "slug": "batterie-19ah-seadoo-yamaha",
+    "price": 139.00,
+    "category": "Electricite",
+    "subcategory": "Batteries",
+    "reference": "BB16CL-B",
+    "brand": "BS",
+    "description": "Batterie sans entretien 19Ah conçue pour les Sea-Doo 2 temps et tous modèles Yamaha. Prête à l'emploi, haute capacité pour démarrage fiable en conditions marines.",
+    "compatibility": [
+      "Sea-Doo 2T (tous modèles)",
+      "Yamaha (tous modèles)"
+    ],
+    "inStock": true,
+    "stockQuantity": 2,
+    "delivery": "1-2 jours",
+    "weight": "8 kg",
+    "images": [
+      "https://www.matosimport.com/30552-large_default/batterie-19ah-pour-seadoo-2t-yamaha-tous-modeles-sans-entretien-.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/batteries/6134-batterie-19ah-pour-seadoo-2t-yamaha-tous-modeles.html"
+  },
+  {
+    "id": 10,
+    "name": "Démarreur Yamaha SuperJet / VXR / Wave Blaster / FX-1",
+    "slug": "demarreur-yamaha-superjet",
+    "price": 201.45,
+    "category": "Electricite",
+    "subcategory": "Démarreurs",
+    "reference": "39-401",
+    "brand": "SBT",
+    "description": "Démarreur de remplacement haute performance (HIGH TORQUE) conforme aux spécifications d'origine. Compatible référence OEM 6M6-81800-10-00.",
+    "compatibility": [
+      "Yamaha XL 700 (1999-2004)",
+      "Yamaha Super Jet (1990-2016)",
+      "Yamaha Wave Runner LX (1991-1993)",
+      "Yamaha VXR 650 (1991-1995)",
+      "Yamaha FX-1 (1991-1995)",
+      "Yamaha Wave Blaster 700 (1993-1996)",
+      "Yamaha Wave Raider 700 (1994-1996)",
+      "Yamaha Wave Venture 700 (1995-1998)"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "1.35 kg",
+    "images": [
+      "https://www.matosimport.com/30779-large_default/demarreur-yamaha-lx-superjet-vxr-raider-deluxe-blaster-fx1-raider-700-xl-700.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/demarreurs/2469-demarreur-yamaha-lx-superjet-vxr-raider-deluxe.html"
+  },
+  {
+    "id": 11,
+    "name": "Câble choke Kawasaki SXI PRO / 800 SX-R",
+    "slug": "cable-choke-kawasaki-sxi-800sxr",
+    "price": 23.74,
+    "category": "Cables",
+    "subcategory": "Cables d'accelerateur",
+    "reference": "59401-3725",
+    "brand": "Kawasaki",
+    "description": "Câble de choke d'origine Kawasaki pour système d'accélération jet ski. Pièce OEM garantissant un ajustement parfait.",
+    "compatibility": [
+      "Kawasaki 750 SXI (1995-1996)",
+      "Kawasaki SXI (1997)",
+      "Kawasaki SXI Pro (1998-2002)",
+      "Kawasaki 800 SX-R (2003-2011)"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "Rupture de stock",
+    "weight": "0.5 kg",
+    "images": [
+      "https://www.matosimport.com/27927-large_default/cablechoke-pour-jet-ski-kawasaki-sxi-pro-800sxr.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/cables-d-accelerateur/7874-cable-choke-pour-jet-ski-kawasaki-sxi-pro-800-sxr.html"
+  },
+  {
+    "id": 12,
+    "name": "Adaptateur de rinçage jet ski universel",
+    "slug": "flush-adaptor-rincage",
+    "price": 9.95,
+    "category": "Coque",
+    "subcategory": "Kits de rinçage",
+    "reference": "295500473",
+    "brand": "BRP",
+    "description": "Embout de rinçage universel pour motomarines équipées d'un raccord de sortie d'eau filetée au support de pompe. Indispensable pour le rinçage à l'eau douce après chaque sortie en mer.",
+    "compatibility": [
+      "Sea-Doo (tous modèles avec raccord fileté)",
+      "Kawasaki (tous modèles avec raccord fileté)",
+      "Yamaha (tous modèles avec raccord fileté)"
+    ],
+    "inStock": true,
+    "stockQuantity": 4,
+    "delivery": "1-2 jours",
+    "weight": "0.3 kg",
+    "images": [
+      "https://www.matosimport.com/27970-large_default/adapateur-de-rinange-jet-ski.jpg",
+      "https://www.matosimport.com/56550-large_default/adapateur-de-rinange-jet-ski.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/kits-de-rincage/8374-adapateur-de-rinange-jet-ski-3000116279113.html"
+  },
+  {
+    "id": 13,
+    "name": "Durite essence 1/4 renforcée transparente verte 50cm",
+    "slug": "durite-essence-renforcee-verte",
+    "price": 5.17,
+    "category": "Moteur",
+    "subcategory": "Durites d'essence",
+    "reference": "N/A",
+    "brand": "Matos Import",
+    "description": "Durite d'alimentation essence renforcée, transparente verte. Diamètre 1/4 pouce, longueur 50cm. Résistante aux carburants et aux conditions marines.",
+    "compatibility": [
+      "Universel jet ski"
+    ],
+    "inStock": true,
+    "stockQuantity": null,
+    "delivery": "1-2 jours",
+    "weight": "0.1 kg",
+    "images": [
+      "https://www.matosimport.com/29825-home_default/durite-essence-14-renforcee.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/durites-d-essence/1424-durite-essence-14-renforcee.html"
+  },
+  {
+    "id": 14,
+    "name": "Durite eau 3/8 renforcée transparente rouge 50cm",
+    "slug": "durite-eau-renforcee-rouge",
+    "price": 5.69,
+    "category": "Moteur",
+    "subcategory": "Durites d'eau",
+    "reference": "N/A",
+    "brand": "Matos Import",
+    "description": "Durite de refroidissement renforcée, transparente rouge. Diamètre 3/8 pouce, longueur 50cm. Haute résistance à la chaleur et à l'eau salée.",
+    "compatibility": [
+      "Universel jet ski"
+    ],
+    "inStock": true,
+    "stockQuantity": null,
+    "delivery": "1-2 jours",
+    "weight": "0.1 kg",
+    "images": [
+      "https://www.matosimport.com/29825-home_default/durite-eau-38-renforcee.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/durites-d-eau/5232-durite-eau-38-renforcee.html"
+  },
+  {
+    "id": 15,
+    "name": "Arbre de transmission Sea-Doo RXT 255 2008",
+    "slug": "arbre-transmission-rxt-255",
+    "price": 349.65,
+    "category": "Transmission",
+    "subcategory": "Arbres de transmission",
+    "reference": "N/A",
+    "brand": "SBT",
+    "description": "Arbre de transmission de remplacement pour Sea-Doo RXT 255. Construction en acier haute résistance, usiné aux tolérances d'origine.",
+    "compatibility": [
+      "Sea-Doo RXT 255 (2008)"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "2 kg",
+    "images": [
+      "https://www.matosimport.com/28584-home_default/arbre-de-transmission-rxt-255-2008.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/transmission/15039-arbre-de-transmission-rxt-255-2008-3000116341841.html"
+  },
+  {
+    "id": 16,
+    "name": "Hélice Concord Racing Solas (13/15) Yamaha Venture 700 / Raider 700",
+    "slug": "helice-concord-solas-venture-raider",
+    "price": 368.31,
+    "category": "Transmission",
+    "subcategory": "Hélices racing",
+    "reference": "N/A",
+    "brand": "Solas",
+    "description": "Hélice racing Solas Concord offrant un gain de performance de +3 km/h. Design géométrique optimisé pour une efficacité maximale et une réduction de la cavitation.",
+    "compatibility": [
+      "Yamaha Venture 700",
+      "Yamaha Raider 700"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "1.5 kg",
+    "images": [
+      "https://www.matosimport.com/28032-home_default/helice-concord-1315-venture700-raider700-solas.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/helices-racing/7923-helice-concord-1315-venture700-raider700-solas-3000116285992.html"
+  },
+  {
+    "id": 17,
+    "name": "Huile de turbine synthétique jet ski 2 temps",
+    "slug": "huile-turbine-synthetique",
+    "price": 19.25,
+    "category": "Transmission",
+    "subcategory": "Huile de turbine",
+    "reference": "N/A",
+    "brand": "BRP",
+    "description": "Huile synthétique spécialement formulée pour la lubrification des turbines de jet ski 2 temps. Assure une protection optimale des composants de transmission.",
+    "compatibility": [
+      "Universel jet ski 2 temps"
+    ],
+    "inStock": true,
+    "stockQuantity": null,
+    "delivery": "1-2 jours",
+    "weight": "0.5 kg",
+    "images": [
+      "https://www.matosimport.com/31306-home_default/huile-de-turbine.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/huile-de-turbine/4683-huile-de-turbine-3000116276556.html"
+  },
+  {
+    "id": 18,
+    "name": "Batterie Yuasa YTX4L-BS",
+    "slug": "batterie-yuasa-ytx4l-bs",
+    "price": 81.23,
+    "category": "Electricite",
+    "subcategory": "Batteries",
+    "reference": "V31500MAA020",
+    "brand": "Yuasa",
+    "description": "Batterie Yuasa YTX4L-BS haute performance. Technologie AGM sans entretien, résistante aux vibrations et à l'environnement marin.",
+    "compatibility": [],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "1.5 kg",
+    "images": [
+      "https://www.matosimport.com/53896-large_default/battery-yuasa-ytx4l-bs.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/accueil/57533-battery-yuasa-ytx4l-bs-3000116702512.html"
+  },
+  {
+    "id": 19,
+    "name": "Joint capot Kawasaki 800 SX-R (2003-2009)",
+    "slug": "joint-capot-kawasaki-800sxr",
+    "price": 51.64,
+    "category": "Coque",
+    "subcategory": "Joints de capot",
+    "reference": "N/A",
+    "brand": "Kawasaki",
+    "description": "Joint de capot d'origine Kawasaki pour 800 SX-R. Assure l'étanchéité parfaite du compartiment moteur contre les projections d'eau.",
+    "compatibility": [
+      "Kawasaki 800 SX-R (2003-2009)"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "0.3 kg",
+    "images": [
+      "https://www.matosimport.com/27927-home_default/joint-capot-kawasaki-800sxr.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/joints-de-capot/5367-joint-capot-d-origine-kawasaki-800sxr-20032009-3000116309896.html"
+  },
+  {
+    "id": 20,
+    "name": "Bague d'usure Spark 900cc (2014-2016)",
+    "slug": "bague-usure-spark-900cc",
+    "price": 85.15,
+    "category": "Transmission",
+    "subcategory": "Bagues d'usure",
+    "reference": "N/A",
+    "brand": "SBT",
+    "description": "Bague d'usure de remplacement SBT pour Sea-Doo Spark 900cc. Restaure les performances de propulsion en remplaçant la bague usée de la turbine.",
+    "compatibility": [
+      "Sea-Doo Spark 900cc (2014-2016)"
+    ],
+    "inStock": false,
+    "stockQuantity": 0,
+    "delivery": "3-5 jours",
+    "weight": "0.4 kg",
+    "images": [
+      "https://www.matosimport.com/28900-home_default/bague-d-usure-remplacement-spark-900cc-20142016.jpg"
+    ],
+    "url": "https://www.matosimport.com/fr/bagues-d-usure/5323-bague-d-usure-remplacement-spark-900cc-20142016-3000116324097.html"
+  }
+]
