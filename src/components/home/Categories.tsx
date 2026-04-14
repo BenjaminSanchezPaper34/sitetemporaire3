@@ -70,7 +70,7 @@ export default function Categories() {
     <section className="relative py-24 lg:py-32 bg-[#08080a]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div data-reveal className="mb-16 max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-wider text-gold mb-3">
+          <p className="text-sm font-semibold uppercase tracking-wider text-accent mb-3">
             Catalogue
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
@@ -87,7 +87,7 @@ export default function Categories() {
               href={`/pieces-detachees/${cat.name.toLowerCase()}`}
               className="group relative rounded-2xl border border-white/5 bg-white/[0.02] p-8 transition-all duration-300 hover:bg-white/[0.05] hover:border-white/10 hover:-translate-y-1"
             >
-              <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold transition-colors group-hover:bg-gold/20">
+              <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent transition-colors group-hover:bg-accent/20">
                 {cat.icon}
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">
@@ -99,7 +99,7 @@ export default function Categories() {
                   {cat.count} références
                 </span>
                 <svg
-                  className="text-gray-600 transition-transform group-hover:translate-x-1 group-hover:text-gold"
+                  className="text-gray-600 transition-transform group-hover:translate-x-1 group-hover:text-accent"
                   width="16"
                   height="16"
                   viewBox="0 0 24 24"

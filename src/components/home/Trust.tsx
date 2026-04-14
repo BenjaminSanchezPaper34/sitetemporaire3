@@ -59,7 +59,7 @@ export default function Trust() {
         <div data-reveal data-reveal-stagger="true" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {FEATURES.map((feature) => (
             <div key={feature.title} className="flex flex-col items-center text-center p-6 rounded-2xl border border-white/5 bg-white/[0.02]">
-              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent">
                 {feature.icon}
               </div>
               <h3 className="text-sm font-semibold text-white mb-1">{feature.title}</h3>

@@ -54,7 +54,7 @@ export default function ProductCard({ product }: { product: Product }) {
         <span className="text-[10px] font-medium uppercase tracking-wider text-gold/70 mb-1.5">
           {product.category}
         </span>
-        <h3 className="text-sm font-semibold text-white leading-snug mb-2 line-clamp-2 group-hover:text-gold transition-colors">
+        <h3 className="text-sm font-semibold text-white leading-snug mb-2 line-clamp-2 group-hover:text-accent transition-colors">
           {product.name}
         </h3>
         <p className="text-xs text-gray-500 line-clamp-2 mb-4 flex-1">

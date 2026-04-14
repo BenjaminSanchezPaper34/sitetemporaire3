@@ -16,7 +16,7 @@ export default function Brands() {
     <section className="relative py-24 lg:py-32 bg-[#08080a]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div data-reveal className="mb-16 text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-gold mb-3">
+          <p className="text-sm font-semibold uppercase tracking-wider text-accent mb-3">
             Nos marques
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
