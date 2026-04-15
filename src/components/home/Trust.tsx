@@ -32,8 +32,18 @@ const FEATURES = [
 
 export default function Trust() {
   return (
-    <section className="relative py-24 lg:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="relative py-24 lg:py-32 overflow-hidden">
+      {/* Background image — concession building */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/images/concession/batiment.jpg"
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 bg-black/80" />
+
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         <div data-reveal data-reveal-stagger="true" className="grid grid-cols-2 gap-8 lg:grid-cols-4">
           {STATS.map((stat) => (
             <div key={stat.label} className="text-center">
