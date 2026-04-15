@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     category: "Entretien",
     date: "2026-03-15",
     readTime: "8 min",
-    image: "/images/concession/sunset.jpg",
+    image: "/images/concession/showroom.jpg",
     content: `## Pourquoi réviser son jet-ski ?
 
 Un jet-ski, c'est un moteur qui tourne à plein régime dans un environnement hostile : eau salée, sable, UV, chaleur. Sans entretien régulier, les pannes arrivent vite — et elles coûtent cher.
@@ -67,7 +67,7 @@ Faites au minimum une révision par an, idéalement avant la saison (avril-mai).
     category: "Guide d'achat",
     date: "2026-02-20",
     readTime: "10 min",
-    image: "/images/concession/batiment.jpg",
+    image: "/images/blog/couple-jetski.jpg",
     content: `## Les 3 familles de jet-skis
 
 ### Loisir / Débutant
@@ -121,7 +121,7 @@ Venez essayer avant d'acheter. Notre équipe vous conseille selon votre profil e
     category: "Destination",
     date: "2026-01-10",
     readTime: "6 min",
-    image: "/images/concession/showroom.jpg",
+    image: "/images/blog/sunset-jetski.jpg",
     content: `## Le Cap d'Agde : un spot idéal
 
 Situé sur la côte languedocienne, le Cap d'Agde offre des conditions parfaites pour le jet-ski :
@@ -161,7 +161,7 @@ Depuis 1991, on est installés sur l'Île des Loisirs. Que vous ayez votre propr
     category: "Entretien",
     date: "2025-11-05",
     readTime: "7 min",
-    image: "/images/concession/showroom.jpg",
+    image: "/images/concession/batiment.jpg",
     content: `## Pourquoi l'hivernage est crucial
 
 Un jet-ski qui passe l'hiver sans préparation, c'est une facture garantie au printemps : corrosion, gel dans le circuit de refroidissement, batterie morte, essence dégradée. 30 minutes de préparation vous évitent des centaines d'euros de réparation.
@@ -256,7 +256,7 @@ En tant que concessionnaire officiel Sea-Doo, Matos Import dispose de la gamme c
     category: "Guide pratique",
     date: "2026-04-01",
     readTime: "5 min",
-    image: "/images/concession/batiment.jpg",
+    image: "/images/blog/couple-jetski.jpg",
     content: `## Quel permis pour un jet-ski ?
 
 En France, la réglementation est simple :
