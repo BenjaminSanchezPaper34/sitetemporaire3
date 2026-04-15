@@ -141,7 +141,7 @@ export default function DualActivity() {
               <div className="flex flex-col gap-2 sm:flex-row">
                 <a href="https://locationjet.matosimport.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-[#36b4a3] px-6 py-3 text-sm font-semibold text-white hover:bg-[#2ea393] transition-all active:scale-[0.98]">
                   Réserver
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
                 </a>
                 <a href="tel:0467266662" className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-black/30 nav-blur px-6 py-3 text-sm font-medium text-white hover:bg-white/10 transition-all">
                   04 67 26 66 62
