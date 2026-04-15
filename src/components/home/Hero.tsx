@@ -8,7 +8,7 @@ const BRANDS = getBrandNames();
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
-  const [activeTab, setActiveTab] = useState<"pieces" | "occasions">("pieces");
+  const [activeTab, setActiveTab] = useState<"pieces" | "occasions" | "location">("pieces");
 
   // Cascading filter state
   const [brand, setBrand] = useState("");
@@ -85,6 +85,9 @@ export default function Hero() {
             </button>
             <button onClick={() => setActiveTab("occasions")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "occasions" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
               🚤 Jets occasion
+            </button>
+            <button onClick={() => setActiveTab("location")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "location" ? "bg-[#36b4a3] text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
+              🌊 Location
             </button>
           </div>
 
@@ -165,6 +168,33 @@ export default function Hero() {
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
                   </a>
                   <p className="text-[10px] text-gray-500">Annonces mises à jour en temps réel</p>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {activeTab === "location" && (
+            <div>
+              <p className="text-xs sm:text-sm text-gray-300 mb-3 drop-shadow-sm">
+                Sea-Doo dernière génération au Cap d&apos;Agde
+              </p>
+              <div className="rounded-2xl border border-white/15 bg-black/50 p-6 sm:p-8 nav-blur">
+                <div className="flex flex-col items-center gap-4">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/logos/logo-location.svg" alt="Jet Rider — Location" className="h-8 sm:h-10 w-auto" />
+                  <div className="flex flex-wrap justify-center gap-3 text-xs text-gray-400">
+                    <span className="rounded-full bg-white/5 border border-white/5 px-3 py-1">Randonnées guidées</span>
+                    <span className="rounded-full bg-white/5 border border-white/5 px-3 py-1">Balades libres</span>
+                    <span className="rounded-full bg-white/5 border border-white/5 px-3 py-1">1h à la journée</span>
+                  </div>
+                  <a href="https://locationjet.matosimport.com" target="_blank" rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#36b4a3] px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-[#2ea393] active:scale-[0.98] w-full sm:w-auto">
+                    Réserver une location
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
+                  </a>
+                  <a href="tel:0467266662" className="text-xs text-gray-500 hover:text-white transition-colors">
+                    04 67 26 66 62
+                  </a>
                 </div>
               </div>
             </div>

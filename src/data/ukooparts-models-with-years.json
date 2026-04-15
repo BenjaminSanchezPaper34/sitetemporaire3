@@ -1,0 +1,4054 @@
+{
+  "seadoo": {
+    "brandName": "Sea-Doo",
+    "brandSlug": "seadoo",
+    "models": [
+      {
+        "name": "3D DI",
+        "slug": "3d-di",
+        "years": [
+          2007
+        ]
+      },
+      {
+        "name": "3D RFI",
+        "slug": "3d-rfi",
+        "years": [
+          2005
+        ]
+      },
+      {
+        "name": "APEX FISH 325",
+        "slug": "apex-fish-325",
+        "years": [
+          2025,
+          2026
+        ]
+      },
+      {
+        "name": "EXPLORER 170",
+        "slug": "explorer-170",
+        "years": [
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "EXPLORER 230",
+        "slug": "explorer-230",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "EXPLORER 300",
+        "slug": "explorer-300",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "EXPLORER PRO 170 3UP",
+        "slug": "explorer-pro-170-3up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "FISH PRO",
+        "slug": "fish-pro",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "FISH PRO APEX 300",
+        "slug": "fish-pro-apex-300",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "FISH PRO SCOUT 130",
+        "slug": "fish-pro-scout-130",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "FISH PRO SCOUT 130 3UP",
+        "slug": "fish-pro-scout-130-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "FISH PRO SPORT 170",
+        "slug": "fish-pro-sport-170",
+        "years": [
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "FISH PRO SPORT 170 3UP",
+        "slug": "fish-pro-sport-170-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "FISH PRO TROPHY 170",
+        "slug": "fish-pro-trophy-170",
+        "years": [
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "FISH PRO TROPHY 170 3UP",
+        "slug": "fish-pro-trophy-170-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "GTI",
+        "slug": "gti",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000
+        ]
+      },
+      {
+        "name": "GTI 130",
+        "slug": "gti-130",
+        "years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "GTI 130 SE",
+        "slug": "gti-130-se",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTI 130 STD",
+        "slug": "gti-130-std",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTI 130 STD",
+        "slug": "gti-130-std-1",
+        "years": [
+          2019,
+          2020
+        ]
+      },
+      {
+        "name": "GTI 130 STD",
+        "slug": "gti-130-std-2",
+        "years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "GTI 155",
+        "slug": "gti-155",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "GTI 170 SE",
+        "slug": "gti-170-se",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTI 4 TEC",
+        "slug": "gti-4-tec",
+        "years": [
+          2007
+        ]
+      },
+      {
+        "name": "GTI DTF",
+        "slug": "gti-dtf",
+        "years": [
+          2016
+        ]
+      },
+      {
+        "name": "GTI LE",
+        "slug": "gti-le",
+        "years": [
+          2002,
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "GTI LE RFI",
+        "slug": "gti-le-rfi",
+        "years": [
+          2003
+        ]
+      },
+      {
+        "name": "GTI LIMITED 155",
+        "slug": "gti-limited-155",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "GTI LTD",
+        "slug": "gti-ltd",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "GTI LTD 155",
+        "slug": "gti-ltd-155",
+        "years": [
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTI RENTAL 130",
+        "slug": "gti-rental-130",
+        "years": [
+          2008
+        ]
+      },
+      {
+        "name": "GTI RFI LE",
+        "slug": "gti-rfi-le",
+        "years": [
+          2004,
+          2005
+        ]
+      },
+      {
+        "name": "GTI RFI STD",
+        "slug": "gti-rfi-std",
+        "years": [
+          2004,
+          2005
+        ]
+      },
+      {
+        "name": "GTI SE 1503 4 TEC",
+        "slug": "gti-se-1503-4-tec",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTI SE 1503 NA 4 TEC",
+        "slug": "gti-se-1503-na-4-tec",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTI SE 130",
+        "slug": "gti-se-130",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "GTI SE 130 3UP",
+        "slug": "gti-se-130-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTI SE 155",
+        "slug": "gti-se-155",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTI SE 1630 ACE 130 3UP",
+        "slug": "gti-se-1630-ace-130-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTI SE 1630 ACE 170 3UP",
+        "slug": "gti-se-1630-ace-170-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTI SE 170",
+        "slug": "gti-se-170",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "GTI SE 170 3UP",
+        "slug": "gti-se-170-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTI SE 90",
+        "slug": "gti-se-90",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      },
+      {
+        "name": "GTI SE 903HO",
+        "slug": "gti-se-903ho",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "GTI STD",
+        "slug": "gti-std",
+        "years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "GTI STD 1503 4 TEC",
+        "slug": "gti-std-1503-4-tec",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTI STD 130",
+        "slug": "gti-std-130",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTI STD 130 3UP",
+        "slug": "gti-std-130-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTI STD 155",
+        "slug": "gti-std-155",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "GTI STD 1630 ACE 130 3UP",
+        "slug": "gti-std-1630-ace-130-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTI STD 1630 ACE 90 3UP",
+        "slug": "gti-std-1630-ace-90-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTI STD 580",
+        "slug": "gti-std-580",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "GTI STD 90",
+        "slug": "gti-std-90",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "GTI STD 90 3UP",
+        "slug": "gti-std-90-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "GTI STD 903HO",
+        "slug": "gti-std-903ho",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "GTI STD RENTAL",
+        "slug": "gti-std-rental",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "GTI STD RENTAL 1503 4 TEC",
+        "slug": "gti-std-rental-1503-4-tec",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTI STD RENTAL IBR 1503 4 TEC",
+        "slug": "gti-std-rental-ibr-1503-4-tec",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTR X",
+        "slug": "gtr-x",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTR X 1500",
+        "slug": "gtr-x-1500",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTR 215",
+        "slug": "gtr-215",
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "GTR 230",
+        "slug": "gtr-230",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTR 230 STD",
+        "slug": "gtr-230-std",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTR 300 X",
+        "slug": "gtr-300-x",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTR STD",
+        "slug": "gtr-std",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "GTR STD 1500",
+        "slug": "gtr-std-1500",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTR STD 230",
+        "slug": "gtr-std-230",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTR STD 230 3UP",
+        "slug": "gtr-std-230-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTR X 230",
+        "slug": "gtr-x-230",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GS",
+        "slug": "gs",
+        "years": [
+          1997,
+          1998,
+          1999,
+          2000,
+          2001
+        ]
+      },
+      {
+        "name": "GSI",
+        "slug": "gsi",
+        "years": [
+          1997
+        ]
+      },
+      {
+        "name": "GSX",
+        "slug": "gsx",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "GSX LIMITED",
+        "slug": "gsx-limited",
+        "years": [
+          1998,
+          1999
+        ]
+      },
+      {
+        "name": "GSX RFI",
+        "slug": "gsx-rfi",
+        "years": [
+          1999,
+          2000,
+          2001
+        ]
+      },
+      {
+        "name": "GTS",
+        "slug": "gts",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "GTS 130",
+        "slug": "gts-130",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "GTS 1503",
+        "slug": "gts-1503",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "GTS 720",
+        "slug": "gts-720",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001
+        ]
+      },
+      {
+        "name": "GTS PRO 130",
+        "slug": "gts-pro-130",
+        "years": [
+          2011
+        ]
+      },
+      {
+        "name": "GTS STD",
+        "slug": "gts-std",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTX",
+        "slug": "gtx",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "GTX 130",
+        "slug": "gtx-130",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "GTX 130 IBR",
+        "slug": "gtx-130-ibr",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "GTX 130 PRO",
+        "slug": "gtx-130-pro",
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTX 155",
+        "slug": "gtx-155",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTX 155 STD",
+        "slug": "gtx-155-std",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "GTX 170",
+        "slug": "gtx-170",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTX 170 STD",
+        "slug": "gtx-170-std",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "GTX 215",
+        "slug": "gtx-215",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013
+        ]
+      },
+      {
+        "name": "GTX 215 LIMITED",
+        "slug": "gtx-215-limited",
+        "years": [
+          2008
+        ]
+      },
+      {
+        "name": "GTX 230 STD",
+        "slug": "gtx-230-std",
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GTX 300",
+        "slug": "gtx-300",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "GTX 300 LIMITED",
+        "slug": "gtx-300-limited",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "GTX 300 STD",
+        "slug": "gtx-300-std",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX 325",
+        "slug": "gtx-325",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "GTX 325 LIMITED",
+        "slug": "gtx-325-limited",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "GTX 4 TEC",
+        "slug": "gtx-4-tec",
+        "years": [
+          2002,
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "GTX 4 TEC",
+        "slug": "gtx-4-tec-1",
+        "years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007
+        ]
+      },
+      {
+        "name": "GTX 4 TEC LTD",
+        "slug": "gtx-4-tec-ltd",
+        "years": [
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "GTX 4 TEC SCIC",
+        "slug": "gtx-4-tec-scic",
+        "years": [
+          2007
+        ]
+      },
+      {
+        "name": "GTX 4 TEC STD",
+        "slug": "gtx-4-tec-std",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "GTX 4 TEC WAKE",
+        "slug": "gtx-4-tec-wake",
+        "years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007
+        ]
+      },
+      {
+        "name": "GTX 4 TECH",
+        "slug": "gtx-4-tech",
+        "years": [
+          2003
+        ]
+      },
+      {
+        "name": "GTX 4TEC",
+        "slug": "gtx-4tec",
+        "years": [
+          2005
+        ]
+      },
+      {
+        "name": "GTX 4TEC LTD SCIC",
+        "slug": "gtx-4tec-ltd-scic",
+        "years": [
+          2005
+        ]
+      },
+      {
+        "name": "GTX 4TEC STD",
+        "slug": "gtx-4tec-std",
+        "years": [
+          2005
+        ]
+      },
+      {
+        "name": "GTX DI",
+        "slug": "gtx-di",
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003
+        ]
+      },
+      {
+        "name": "GTX FISH PRO",
+        "slug": "gtx-fish-pro",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "GTX FISH PRO 1630 ACE 170 3UP",
+        "slug": "gtx-fish-pro-1630-ace-170-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTX IS 215",
+        "slug": "gtx-is-215",
+        "years": [
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "GTX LIMITED",
+        "slug": "gtx-limited",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "GTX LIMITED 1500",
+        "slug": "gtx-limited-1500",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTX LIMITED 1630 ACE",
+        "slug": "gtx-limited-1630-ace",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTX LIMITED 1630 ACE 300 3UP",
+        "slug": "gtx-limited-1630-ace-300-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTX LIMITED 215",
+        "slug": "gtx-limited-215",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "GTX LIMITED 300",
+        "slug": "gtx-limited-300",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX LIMITED 300 3UP",
+        "slug": "gtx-limited-300-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTX LIMITED 300 LTD",
+        "slug": "gtx-limited-300-ltd",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX LIMITED IS 255",
+        "slug": "gtx-limited-is-255",
+        "years": [
+          2009
+        ]
+      },
+      {
+        "name": "GTX LIMITED IS 260",
+        "slug": "gtx-limited-is-260",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "GTX LTD",
+        "slug": "gtx-ltd",
+        "years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTX LTD 215",
+        "slug": "gtx-ltd-215",
+        "years": [
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "GTX LTD 230",
+        "slug": "gtx-ltd-230",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTX LTD 300",
+        "slug": "gtx-ltd-300",
+        "years": [
+          2016,
+          2017
+        ]
+      },
+      {
+        "name": "GTX LTD IS 260",
+        "slug": "gtx-ltd-is-260",
+        "years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "GTX LTD IS 260 LTD",
+        "slug": "gtx-ltd-is-260-ltd",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "GTX PRO 130 IBR",
+        "slug": "gtx-pro-130-ibr",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "GTX PRO 130 IBR STD",
+        "slug": "gtx-pro-130-ibr-std",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX PRO 130 IBR STDR",
+        "slug": "gtx-pro-130-ibr-stdr",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX PRO 130 STD",
+        "slug": "gtx-pro-130-std",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX PRO 130 STDR",
+        "slug": "gtx-pro-130-stdr",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "GTX RFI",
+        "slug": "gtx-rfi",
+        "years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "GTX S",
+        "slug": "gtx-s",
+        "years": [
+          2016
+        ]
+      },
+      {
+        "name": "GTX S 155",
+        "slug": "gtx-s-155",
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "GTX SC",
+        "slug": "gtx-sc",
+        "years": [
+          2006
+        ]
+      },
+      {
+        "name": "GTX STD",
+        "slug": "gtx-std",
+        "years": [
+          2006
+        ]
+      },
+      {
+        "name": "GTX STD 1500",
+        "slug": "gtx-std-1500",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTX STD 1503 NA 4 TEC",
+        "slug": "gtx-std-1503-na-4-tec",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GTX STD 130 3UP",
+        "slug": "gtx-std-130-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "GTX STD 130 IBR 3UP",
+        "slug": "gtx-std-130-ibr-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "GTX STD 155",
+        "slug": "gtx-std-155",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "GTX STD 1630 ACE 130 3UP",
+        "slug": "gtx-std-1630-ace-130-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTX STD 1630 ACE 170 3UP",
+        "slug": "gtx-std-1630-ace-170-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTX STD 1630 ACE 230 3UP",
+        "slug": "gtx-std-1630-ace-230-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTX STD 1630 ACE 300 3UP",
+        "slug": "gtx-std-1630-ace-300-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "GTX STD 170 3UP",
+        "slug": "gtx-std-170-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTX STD 230",
+        "slug": "gtx-std-230",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "GTX STD 230 3UP",
+        "slug": "gtx-std-230-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTX STD 300 3UP",
+        "slug": "gtx-std-300-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GTX STDR 130 3UP",
+        "slug": "gtx-stdr-130-3up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "GTX WAKE",
+        "slug": "gtx-wake",
+        "years": [
+          2006
+        ]
+      },
+      {
+        "name": "GTXS LTD 260",
+        "slug": "gtxs-ltd-260",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "GTXS STD 155",
+        "slug": "gtxs-std-155",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "HX",
+        "slug": "hx",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "LRV",
+        "slug": "lrv",
+        "years": [
+          2000,
+          2001
+        ]
+      },
+      {
+        "name": "LRV DI",
+        "slug": "lrv-di",
+        "years": [
+          2002,
+          2003
+        ]
+      },
+      {
+        "name": "RX",
+        "slug": "rx",
+        "years": [
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "RX DI",
+        "slug": "rx-di",
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003
+        ]
+      },
+      {
+        "name": "RX DI LE",
+        "slug": "rx-di-le",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "RX X",
+        "slug": "rx-x",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "RXP",
+        "slug": "rxp",
+        "years": [
+          2004,
+          2005,
+          2006
+        ]
+      },
+      {
+        "name": "RXP 155",
+        "slug": "rxp-155",
+        "years": [
+          2008
+        ]
+      },
+      {
+        "name": "RXP 215",
+        "slug": "rxp-215",
+        "years": [
+          2008,
+          2009
+        ]
+      },
+      {
+        "name": "RXP 325",
+        "slug": "rxp-325",
+        "years": [
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "RXP 325 X",
+        "slug": "rxp-325-x",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "RXP 4 TEC",
+        "slug": "rxp-4-tec",
+        "years": [
+          2007
+        ]
+      },
+      {
+        "name": "RXP X",
+        "slug": "rxp-x",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "RXP X 1630 ACE",
+        "slug": "rxp-x-1630-ace",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXP X 300",
+        "slug": "rxp-x-300",
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      },
+      {
+        "name": "RXP X 1630 ACE",
+        "slug": "rxp-x-1630-ace-1",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXP X 1630 ACE 300 1UP",
+        "slug": "rxp-x-1630-ace-300-1up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "RXP X 255",
+        "slug": "rxp-x-255",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "RXP X 300",
+        "slug": "rxp-x-300-1",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "RXP X 300 1UP",
+        "slug": "rxp-x-300-1up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "RXP X 325",
+        "slug": "rxp-x-325",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "RXP X ARS",
+        "slug": "rxp-x-ars",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "RXP X CARBON 300",
+        "slug": "rxp-x-carbon-300",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "RXP X CARBON 300 2UP",
+        "slug": "rxp-x-carbon-300-2up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "RXP X RS 300 1UP",
+        "slug": "rxp-x-rs-300-1up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "RXP X XRS",
+        "slug": "rxp-x-xrs",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "RXP XRS 1630 ACE",
+        "slug": "rxp-xrs-1630-ace",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXP XRS 1630 ACE",
+        "slug": "rxp-xrs-1630-ace-1",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXP XRS 300",
+        "slug": "rxp-xrs-300",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "RXT",
+        "slug": "rxt",
+        "years": [
+          2005,
+          2006
+        ]
+      },
+      {
+        "name": "RXT 215",
+        "slug": "rxt-215",
+        "years": [
+          2009,
+          2010
+        ]
+      },
+      {
+        "name": "RXT 230",
+        "slug": "rxt-230",
+        "years": [
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "RXT 260",
+        "slug": "rxt-260",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "RXT 260 RS",
+        "slug": "rxt-260-rs",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "RXT 260 STD",
+        "slug": "rxt-260-std",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXT 260 STD RS",
+        "slug": "rxt-260-std-rs",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXT 300",
+        "slug": "rxt-300",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "RXT 300",
+        "slug": "rxt-300-1",
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "RXT 325 X",
+        "slug": "rxt-325-x",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "RXT 325 X W/AUDIO",
+        "slug": "rxt-325-x-w-audio",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "RXT 4 TEC",
+        "slug": "rxt-4-tec",
+        "years": [
+          2007
+        ]
+      },
+      {
+        "name": "RXT IS 255",
+        "slug": "rxt-is-255",
+        "years": [
+          2009
+        ]
+      },
+      {
+        "name": "RXT IS 260",
+        "slug": "rxt-is-260",
+        "years": [
+          2010,
+          2011,
+          2012
+        ]
+      },
+      {
+        "name": "RXT STD 1500",
+        "slug": "rxt-std-1500",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXT STD 230",
+        "slug": "rxt-std-230",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "RXT STD 260",
+        "slug": "rxt-std-260",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "RXT STDRS 260",
+        "slug": "rxt-stdrs-260",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "RXT X 1630 ACE",
+        "slug": "rxt-x-1630-ace",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXT X 1630 ACE",
+        "slug": "rxt-x-1630-ace-1",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXT X 255",
+        "slug": "rxt-x-255",
+        "years": [
+          2008
+        ]
+      },
+      {
+        "name": "RXT X 255 RS",
+        "slug": "rxt-x-255-rs",
+        "years": [
+          2009
+        ]
+      },
+      {
+        "name": "RXT X 260",
+        "slug": "rxt-x-260",
+        "years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "RXT X 260 RS",
+        "slug": "rxt-x-260-rs",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "RXT X 260 RS XRS",
+        "slug": "rxt-x-260-rs-xrs",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXT X 260 X",
+        "slug": "rxt-x-260-x",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXT X 300",
+        "slug": "rxt-x-300",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      },
+      {
+        "name": "RXT X 300 3UP",
+        "slug": "rxt-x-300-3up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "RXT X 300 XRS",
+        "slug": "rxt-x-300-xrs",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "RXT X 325",
+        "slug": "rxt-x-325",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "RXT X AS 260",
+        "slug": "rxt-x-as-260",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "RXT X AS 260 RS",
+        "slug": "rxt-x-as-260-rs",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "RXT X AS 260 X",
+        "slug": "rxt-x-as-260-x",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXT X AS 260 XRS",
+        "slug": "rxt-x-as-260-xrs",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXT X RS 300 3UP",
+        "slug": "rxt-x-rs-300-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "RXT XRS 1630 ACE",
+        "slug": "rxt-xrs-1630-ace",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXT XRS 1630 ACE",
+        "slug": "rxt-xrs-1630-ace-1",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "RXT XRS 1630 ACE 300 3UP",
+        "slug": "rxt-xrs-1630-ace-300-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "RXT XRS 300",
+        "slug": "rxt-xrs-300",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "RXTX X 300",
+        "slug": "rxtx-x-300",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "RXTX XRS 300",
+        "slug": "rxtx-xrs-300",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "RXX 255",
+        "slug": "rxx-255",
+        "years": [
+          2009,
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "RXX 260",
+        "slug": "rxx-260",
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "RXX 260 RS",
+        "slug": "rxx-260-rs",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "RXX 260 X",
+        "slug": "rxx-260-x",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXX 260 XRS",
+        "slug": "rxx-260-xrs",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "RXX 300",
+        "slug": "rxx-300",
+        "years": [
+          2016
+        ]
+      },
+      {
+        "name": "SAR 155",
+        "slug": "sar-155",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "SP",
+        "slug": "sp",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "SPARK",
+        "slug": "spark",
+        "years": [
+          2014,
+          2015
+        ]
+      },
+      {
+        "name": "SPARK",
+        "slug": "spark-1",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "SPARK 1IBR 90",
+        "slug": "spark-1-1ibr-90",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "SPARK 2",
+        "slug": "spark-2",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "SPARK 2 1IBR 90",
+        "slug": "spark-2-1ibr-90",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "SPARK 2UP",
+        "slug": "spark-2up",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "SPARK 2UP ACE",
+        "slug": "spark-2up-ace",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "SPARK 3UP",
+        "slug": "spark-3up",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "SPARK 60 2UP",
+        "slug": "spark-60-2up",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "SPARK 90 2UP",
+        "slug": "spark-90-2up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "SPARK 90 3UP",
+        "slug": "spark-90-3up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "SPARK 900 ACE 2UP",
+        "slug": "spark-900-ace-2up",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "SPARK 900 ACE BASE 2UP",
+        "slug": "spark-900-ace-base-2up",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE",
+        "slug": "spark-900-ho-ace",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE 2UP",
+        "slug": "spark-900-ho-ace-2up",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE 3UP",
+        "slug": "spark-900-ho-ace-3up",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE BASE 3UP",
+        "slug": "spark-900-ho-ace-base-3up",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE CONV",
+        "slug": "spark-900-ho-ace-conv",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE CONV 2UP",
+        "slug": "spark-900-ho-ace-conv-2up",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SPARK 900 HO ACE CONV 3UP",
+        "slug": "spark-900-ho-ace-conv-3up",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SPARK BASE 60 2UP",
+        "slug": "spark-base-60-2up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "SPARK BASE 900 ACE",
+        "slug": "spark-base-900-ace",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "SPARK BASE 900 ACE 60 2UP",
+        "slug": "spark-base-900-ace-60-2up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "SPARK BASE 900 ACE HO",
+        "slug": "spark-base-900-ace-ho",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "SPARK CONVENIENCE 900 ACE HO",
+        "slug": "spark-convenience-900-ace-ho",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "SPARK HO 900 ACE 90 2UP",
+        "slug": "spark-ho-900-ace-90-2up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "SPARK TRIXX",
+        "slug": "spark-trixx",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "SPARK TRIXX 1UP",
+        "slug": "spark-trixx-1up",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SPARK TRIXX 2UP",
+        "slug": "spark-trixx-2up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "SPARK TRIXX 3UP",
+        "slug": "spark-trixx-3up",
+        "years": [
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "SPARK TRIXX 90 2UP",
+        "slug": "spark-trixx-90-2up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "SPARK TRIXX 900 ACE 90 2UP",
+        "slug": "spark-trixx-900-ace-90-2up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "SPI",
+        "slug": "spi",
+        "years": [
+          1996
+        ]
+      },
+      {
+        "name": "SPX",
+        "slug": "spx",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999
+        ]
+      },
+      {
+        "name": "WAKE 155",
+        "slug": "wake-155",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "WAKE 170",
+        "slug": "wake-170",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "WAKE 170 3UP",
+        "slug": "wake-170-3up",
+        "years": [
+          2023
+        ]
+      },
+      {
+        "name": "WAKE 170 BASE",
+        "slug": "wake-170-base",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "WAKE 215",
+        "slug": "wake-215",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "WAKE BASE",
+        "slug": "wake-base",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "WAKE PRO",
+        "slug": "wake-pro",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "WAKE PRO 1500",
+        "slug": "wake-pro-1500",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "WAKE PRO 1630 ACE 230 3UP",
+        "slug": "wake-pro-1630-ace-230-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "WAKE PRO 215",
+        "slug": "wake-pro-215",
+        "years": [
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "WAKE PRO 230",
+        "slug": "wake-pro-230",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "WAKE PRO 230 3UP",
+        "slug": "wake-pro-230-3up",
+        "years": [
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "WAKE STD 1503",
+        "slug": "wake-std-1503",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "WAKE STD 155",
+        "slug": "wake-std-155",
+        "years": [
+          2017,
+          2018
+        ]
+      },
+      {
+        "name": "WAKE STD 1630 ACE 170 3UP",
+        "slug": "wake-std-1630-ace-170-3up",
+        "years": [
+          2021
+        ]
+      },
+      {
+        "name": "WAKE STD 170",
+        "slug": "wake-std-170",
+        "years": [
+          2020
+        ]
+      },
+      {
+        "name": "WAKE STD 170 3UP",
+        "slug": "wake-std-170-3up",
+        "years": [
+          2022
+        ]
+      },
+      {
+        "name": "XP",
+        "slug": "xp",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "XP DI",
+        "slug": "xp-di",
+        "years": [
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "XP LIMITED",
+        "slug": "xp-limited",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "XP LTD",
+        "slug": "xp-ltd",
+        "years": [
+          1998,
+          1999
+        ]
+      }
+    ]
+  },
+  "kawasaki": {
+    "brandName": "Kawasaki",
+    "brandSlug": "kawasaki",
+    "models": [
+      {
+        "name": "1100 STX",
+        "slug": "1100-stx",
+        "years": [
+          1997,
+          1998,
+          1999
+        ]
+      },
+      {
+        "name": "1100 STX DI",
+        "slug": "1100-stx-di",
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003
+        ]
+      },
+      {
+        "name": "1100 ZXI",
+        "slug": "1100-zxi",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003
+        ]
+      },
+      {
+        "name": "1200 STX R",
+        "slug": "1200-stx-r",
+        "years": [
+          2002,
+          2003,
+          2004,
+          2005
+        ]
+      },
+      {
+        "name": "750 STX",
+        "slug": "750-stx",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "750 SXI",
+        "slug": "750-sxi",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "750 ZXI",
+        "slug": "750-zxi",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "800 SX R",
+        "slug": "800-sx-r",
+        "years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "SS",
+        "slug": "ss",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "STS",
+        "slug": "sts",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "STX",
+        "slug": "stx",
+        "years": [
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010
+        ]
+      },
+      {
+        "name": "STX 12F",
+        "slug": "stx-12f",
+        "years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007
+        ]
+      },
+      {
+        "name": "STX 15F",
+        "slug": "stx-15f",
+        "years": [
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "STX 160",
+        "slug": "stx-160",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "STX 160LX",
+        "slug": "stx-160lx",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "STX 160X",
+        "slug": "stx-160x",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "SUPER SPORT XI",
+        "slug": "super-sport-xi",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "SX R",
+        "slug": "sx-r",
+        "years": [
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "SX R 160",
+        "slug": "sx-r-160",
+        "years": [
+          2024
+        ]
+      },
+      {
+        "name": "SXI PRO",
+        "slug": "sxi-pro",
+        "years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "TS",
+        "slug": "ts",
+        "years": [
+          1996
+        ]
+      },
+      {
+        "name": "ULTRA 130",
+        "slug": "ultra-130",
+        "years": [
+          2001,
+          2002,
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "ULTRA 150",
+        "slug": "ultra-150",
+        "years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005
+        ]
+      },
+      {
+        "name": "ULTRA 160LX",
+        "slug": "ultra-160lx",
+        "years": [
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "ULTRA 160LX S",
+        "slug": "ultra-160lx-s",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "ULTRA 160LX S ANGLER",
+        "slug": "ultra-160lx-s-angler",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "ULTRA 250X",
+        "slug": "ultra-250x",
+        "years": [
+          2007,
+          2008
+        ]
+      },
+      {
+        "name": "ULTRA 260 LX",
+        "slug": "ultra-260-lx",
+        "years": [
+          2009,
+          2010
+        ]
+      },
+      {
+        "name": "ULTRA 260LX",
+        "slug": "ultra-260lx",
+        "years": [
+          2009
+        ]
+      },
+      {
+        "name": "ULTRA 260X",
+        "slug": "ultra-260x",
+        "years": [
+          2009,
+          2010
+        ]
+      },
+      {
+        "name": "ULTRA 300LX",
+        "slug": "ultra-300lx",
+        "years": [
+          2011,
+          2012,
+          2013
+        ]
+      },
+      {
+        "name": "ULTRA 300X",
+        "slug": "ultra-300x",
+        "years": [
+          2011,
+          2012,
+          2013
+        ]
+      },
+      {
+        "name": "ULTRA 310LX",
+        "slug": "ultra-310lx",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "ULTRA 310LX S",
+        "slug": "ultra-310lx-s",
+        "years": [
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "ULTRA 310R",
+        "slug": "ultra-310r",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "ULTRA 310X",
+        "slug": "ultra-310x",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "ULTRA 310X SE",
+        "slug": "ultra-310x-se",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "ULTRA LX",
+        "slug": "ultra-lx",
+        "years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "XI SPORT",
+        "slug": "xi-sport",
+        "years": [
+          1998,
+          1999
+        ]
+      },
+      {
+        "name": "ZXI",
+        "slug": "zxi",
+        "years": [
+          1996,
+          1997
+        ]
+      }
+    ]
+  },
+  "yamaha": {
+    "brandName": "Yamaha",
+    "brandSlug": "yamaha",
+    "models": [
+      {
+        "name": "EX",
+        "slug": "ex",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "EX DELUXE",
+        "slug": "ex-deluxe",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "EX LIMITED",
+        "slug": "ex-limited",
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "EX R",
+        "slug": "ex-r",
+        "years": [
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "name": "EX SPORT",
+        "slug": "ex-sport",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "FX",
+        "slug": "fx",
+        "years": [
+          2005,
+          2006,
+          2007,
+          2008
+        ]
+      },
+      {
+        "name": "FX 140",
+        "slug": "fx-140",
+        "years": [
+          2002,
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "FX 140 A",
+        "slug": "fx-140-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "FX CRUISER",
+        "slug": "fx-cruiser",
+        "years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ]
+      },
+      {
+        "name": "FX CRUISER HO",
+        "slug": "fx-cruiser-ho",
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      {
+        "name": "FX CRUISER SHO",
+        "slug": "fx-cruiser-sho",
+        "years": [
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "FX CRUISER SUPER HO",
+        "slug": "fx-cruiser-super-ho",
+        "years": [
+          2008
+        ]
+      },
+      {
+        "name": "FX CRUISER SVHO",
+        "slug": "fx-cruiser-svho",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "FX CRUISER SVHO LTD",
+        "slug": "fx-cruiser-svho-ltd",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "FX CRUSIER HO",
+        "slug": "fx-crusier-ho",
+        "years": [
+          2014
+        ]
+      },
+      {
+        "name": "FX CRUSIER SHO",
+        "slug": "fx-crusier-sho",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "FX CRUSISER SVHO",
+        "slug": "fx-crusiser-svho",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "FX HO",
+        "slug": "fx-crsr-ho",
+        "years": [
+          2006
+        ]
+      },
+      {
+        "name": "FX HO",
+        "slug": "fx-ho",
+        "years": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "FX LIMITED SVHO",
+        "slug": "fx-limited-svho",
+        "years": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "FX SHO",
+        "slug": "fx-sho",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "FX SHO",
+        "slug": "fx-super-ho",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011
+        ]
+      },
+      {
+        "name": "FX SVHO",
+        "slug": "fx-svho",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "FX SVHO LTD",
+        "slug": "fx-svho-ltd",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "FX1000 FX140",
+        "slug": "fx1000-fx140",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "FX1000A FX CRUISER",
+        "slug": "fx1000a-fx-cruiser",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "FX1100 FX CRUISER HO",
+        "slug": "fx1100-fx-cruiser-ho",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "FX1100 FX HO",
+        "slug": "fx1100-fx-ho",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "FX140",
+        "slug": "fx140",
+        "years": [
+          2003
+        ]
+      },
+      {
+        "name": "FXR",
+        "slug": "fxr",
+        "years": [
+          2015
+        ]
+      },
+      {
+        "name": "FZR",
+        "slug": "fzr",
+        "years": [
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "FZS",
+        "slug": "fzs",
+        "years": [
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "GP 1200",
+        "slug": "gp-1200",
+        "years": [
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "GP 1200 A",
+        "slug": "gp-1200-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "GP 1200 RZ",
+        "slug": "gp-1200-rz",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "GP 1200 W",
+        "slug": "gp-1200-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "GP 1200 X",
+        "slug": "gp-1200-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "GP 1200R",
+        "slug": "gp-1200r",
+        "years": [
+          2000
+        ]
+      },
+      {
+        "name": "GP 760",
+        "slug": "gp-760",
+        "years": [
+          1999,
+          2000
+        ]
+      },
+      {
+        "name": "GP 760 X",
+        "slug": "gp-760-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "GP 800",
+        "slug": "gp-800",
+        "years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "GP 800 A",
+        "slug": "gp-800-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "GP 800 AZ",
+        "slug": "gp-800-az",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "GP 800 W",
+        "slug": "gp-800-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "GP 800 X",
+        "slug": "gp-800-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "GP HO",
+        "slug": "gp-ho",
+        "years": [
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "GP SVHO",
+        "slug": "gp-svho",
+        "years": [
+          2025
+        ]
+      },
+      {
+        "name": "GP1300R",
+        "slug": "gp1300r",
+        "years": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008
+        ]
+      },
+      {
+        "name": "GP1800",
+        "slug": "gp1800",
+        "years": [
+          2018
+        ]
+      },
+      {
+        "name": "GP1800",
+        "slug": "gp1800-1",
+        "years": [
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "GP1800 SVHO",
+        "slug": "gp1800-svho",
+        "years": [
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "GP1800R",
+        "slug": "gp1800r",
+        "years": [
+          2019
+        ]
+      },
+      {
+        "name": "GP1800R HO",
+        "slug": "gp1800r-ho",
+        "years": [
+          2020,
+          2021,
+          2022,
+          2023
+        ]
+      },
+      {
+        "name": "GP1800R SVHO",
+        "slug": "gp1800r-svho",
+        "years": [
+          2020,
+          2021,
+          2022
+        ]
+      },
+      {
+        "name": "GP1800S",
+        "slug": "gp1800s",
+        "years": [
+          2017
+        ]
+      },
+      {
+        "name": "GP800A",
+        "slug": "gp800a",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "GP800R",
+        "slug": "gp800r",
+        "years": [
+          2003,
+          2004,
+          2005
+        ]
+      },
+      {
+        "name": "JET BLASTER",
+        "slug": "jet-blaster",
+        "years": [
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "SJ 700 A",
+        "slug": "sj-700-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "SJ 700 AZ",
+        "slug": "sj-700-az",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "SJ700B SUPERJET",
+        "slug": "sj700b-superjet",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "SUPER JET",
+        "slug": "super-jet",
+        "years": [
+          2022,
+          2023,
+          2024
+        ]
+      },
+      {
+        "name": "SUPERJET",
+        "slug": "superjet",
+        "years": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021
+        ]
+      },
+      {
+        "name": "SUPERJET 700",
+        "slug": "superjet-700",
+        "years": [
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ]
+      },
+      {
+        "name": "SUPERJET 700 W",
+        "slug": "superjet-700-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "SUPERJET 700 X",
+        "slug": "superjet-700-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "SUPERJET SJ700B",
+        "slug": "superjet-sj700b",
+        "years": [
+          2003
+        ]
+      },
+      {
+        "name": "SUV 1200",
+        "slug": "suv-1200",
+        "years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "SUV 1200 X",
+        "slug": "suv-1200-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "SUV 1200 Y",
+        "slug": "suv-1200-y",
+        "years": [
+          2000
+        ]
+      },
+      {
+        "name": "SUV 1200 Z",
+        "slug": "suv-1200-z",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "SUV1200 4 PERSON W/TRAILER",
+        "slug": "suv1200-4-person-w-trailer",
+        "years": [
+          2003
+        ]
+      },
+      {
+        "name": "SV 1200A",
+        "slug": "sv-1200a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "SV1200 SUV 4 PERSON",
+        "slug": "sv1200-suv-4-person",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "V1",
+        "slug": "v1",
+        "years": [
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "V1 SPORT",
+        "slug": "v1-sport",
+        "years": [
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "VX",
+        "slug": "vx",
+        "years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX C",
+        "slug": "vx-c",
+        "years": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX CRUISER",
+        "slug": "vx-cruiser",
+        "years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX CRUISER HO",
+        "slug": "vx-cruiser-ho",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX DELUXE",
+        "slug": "vx-deluxe",
+        "years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX LIMITED",
+        "slug": "vx-limited",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX LIMITED HO",
+        "slug": "vx-limited-ho",
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      },
+      {
+        "name": "VX SPORT",
+        "slug": "vx-sport",
+        "years": [
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014
+        ]
+      },
+      {
+        "name": "VX110 DELUXE",
+        "slug": "vx110-deluxe",
+        "years": [
+          2006
+        ]
+      },
+      {
+        "name": "VX110 SPORT",
+        "slug": "vx110-sport",
+        "years": [
+          2006
+        ]
+      },
+      {
+        "name": "VX1100 DELUXE",
+        "slug": "vx1100-deluxe",
+        "years": [
+          2005
+        ]
+      },
+      {
+        "name": "VX1100 SPORT",
+        "slug": "vx1100-sport",
+        "years": [
+          2005
+        ]
+      },
+      {
+        "name": "VXR",
+        "slug": "vxr",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      },
+      {
+        "name": "VXS",
+        "slug": "vxs",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "name": "WAVE BLASTER 700",
+        "slug": "wave-blaster-700",
+        "years": [
+          1996
+        ]
+      },
+      {
+        "name": "WAVE BLASTER 760",
+        "slug": "wave-blaster-760",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "WAVE RAIDER 1100",
+        "slug": "wave-raider-1100",
+        "years": [
+          1996
+        ]
+      },
+      {
+        "name": "WAVE RAIDER 700",
+        "slug": "wave-raider-700",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "WAVE RAIDER 760",
+        "slug": "wave-raider-760",
+        "years": [
+          1996,
+          1997,
+          1998
+        ]
+      },
+      {
+        "name": "WAVE RUNNER 760",
+        "slug": "wave-runner-760",
+        "years": [
+          1997
+        ]
+      },
+      {
+        "name": "WAVE RUNNER 760 W",
+        "slug": "wave-runner-760-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "WAVE RUNNER III",
+        "slug": "wave-runner-iii",
+        "years": [
+          1996
+        ]
+      },
+      {
+        "name": "WAVE RUNNER III 700",
+        "slug": "wave-runner-iii-700",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "WAVE VENTURE 1100",
+        "slug": "wave-venture-1100",
+        "years": [
+          1996,
+          1997
+        ]
+      },
+      {
+        "name": "WAVE VENTURE 700",
+        "slug": "wave-venture-700",
+        "years": [
+          1996
+        ]
+      },
+      {
+        "name": "WAVE VENTURE 700 W",
+        "slug": "wave-venture-700-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "WAVE VENTURE 760",
+        "slug": "wave-venture-760",
+        "years": [
+          1997
+        ]
+      },
+      {
+        "name": "XA1200A XLT1200",
+        "slug": "xa1200a-xlt1200",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "XA800A",
+        "slug": "xa800a",
+        "years": [
+          2004
+        ]
+      },
+      {
+        "name": "XL 1200",
+        "slug": "xl-1200",
+        "years": [
+          1998,
+          1999,
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "XL 1200 LTD",
+        "slug": "xl-1200-ltd",
+        "years": [
+          2000
+        ]
+      },
+      {
+        "name": "XL 1200 W",
+        "slug": "xl-1200-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "XL 1200 Z",
+        "slug": "xl-1200-z",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "XL 700",
+        "slug": "xl-700",
+        "years": [
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "XL 700 A",
+        "slug": "xl-700-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "XL 700 X",
+        "slug": "xl-700-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "XL 700 Z",
+        "slug": "xl-700-z",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "XL 760",
+        "slug": "xl-760",
+        "years": [
+          1998,
+          1999
+        ]
+      },
+      {
+        "name": "XL 760 W",
+        "slug": "xl-760-w",
+        "years": [
+          1998
+        ]
+      },
+      {
+        "name": "XL 760 X",
+        "slug": "xl-760-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "XL 800",
+        "slug": "xl-800",
+        "years": [
+          2000,
+          2001,
+          2002
+        ]
+      },
+      {
+        "name": "XL 800 Z",
+        "slug": "xl-800-z",
+        "years": [
+          2001
+        ]
+      },
+      {
+        "name": "XL1200 LTD X",
+        "slug": "xl1200-ltd-x",
+        "years": [
+          1999
+        ]
+      },
+      {
+        "name": "XL700",
+        "slug": "xl700",
+        "years": [
+          2003,
+          2004
+        ]
+      },
+      {
+        "name": "XLT 1200 A",
+        "slug": "xlt-1200-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "XLT 800 A",
+        "slug": "xlt-800-a",
+        "years": [
+          2002
+        ]
+      },
+      {
+        "name": "XLT1200",
+        "slug": "xlt1200",
+        "years": [
+          2003,
+          2004,
+          2005
+        ]
+      },
+      {
+        "name": "XLT800",
+        "slug": "xlt800",
+        "years": [
+          2003
+        ]
+      }
+    ]
+  }
+}
