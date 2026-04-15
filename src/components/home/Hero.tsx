@@ -80,13 +80,13 @@ export default function Hero() {
 
         <div className="mt-8 sm:mt-10 mx-auto max-w-2xl">
           <div className="flex justify-center gap-1 mb-3">
-            <button onClick={() => setActiveTab("pieces")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "pieces" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
-              🔧 Trouver mes pièces
+            <button onClick={() => setActiveTab("pieces")} className={`rounded-full px-3 sm:px-5 py-2 text-[11px] sm:text-sm font-medium transition-all whitespace-nowrap ${activeTab === "pieces" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
+              🔧 <span className="hidden sm:inline">Trouver mes </span>Pièces
             </button>
-            <button onClick={() => setActiveTab("occasions")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "occasions" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
-              🚤 Jets occasion
+            <button onClick={() => setActiveTab("occasions")} className={`rounded-full px-3 sm:px-5 py-2 text-[11px] sm:text-sm font-medium transition-all whitespace-nowrap ${activeTab === "occasions" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
+              🚤 Occasions
             </button>
-            <button onClick={() => setActiveTab("location")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "location" ? "bg-[#36b4a3] text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
+            <button onClick={() => setActiveTab("location")} className={`rounded-full px-3 sm:px-5 py-2 text-[11px] sm:text-sm font-medium transition-all whitespace-nowrap ${activeTab === "location" ? "bg-[#36b4a3] text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
               🌊 Location
             </button>
           </div>
@@ -163,8 +163,9 @@ export default function Hero() {
                     <span className="text-sm font-medium">Révisés en atelier — Garantie concession</span>
                   </div>
                   <a href="https://www.leboncoin.fr/recherche?text=matos+import+by+jeff&kst=k" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-accent-hover active:scale-[0.98] w-full sm:w-auto">
-                    Voir nos occasions sur LeBonCoin
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-6 sm:px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-accent-hover active:scale-[0.98] w-full sm:w-auto whitespace-nowrap">
+                    <span className="hidden sm:inline">Voir nos occasions sur LeBonCoin</span>
+                    <span className="sm:hidden">Nos occasions</span>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
                   </a>
                   <p className="text-[10px] text-gray-500">Annonces mises à jour en temps réel</p>
@@ -188,8 +189,8 @@ export default function Hero() {
                     <span className="rounded-full bg-white/5 border border-white/5 px-3 py-1">1h à la journée</span>
                   </div>
                   <a href="https://locationjet.matosimport.com" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#36b4a3] px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-[#2ea393] active:scale-[0.98] w-full sm:w-auto">
-                    Réserver une location
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#36b4a3] px-6 sm:px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-[#2ea393] active:scale-[0.98] w-full sm:w-auto whitespace-nowrap">
+                    Réserver
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
                   </a>
                   <a href="tel:0467266662" className="text-xs text-gray-500 hover:text-white transition-colors">

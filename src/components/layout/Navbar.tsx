@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { label: "Concessionnaire", href: "/concessionnaire", external: false },
   { label: "Pièces & Accessoires", href: "https://www.matosimport.com/fr/parts/jet-ski", external: true },
   { label: "Occasions", href: "https://www.leboncoin.fr/recherche?text=matos+import+by+jeff&kst=k", external: true },
+  { label: "Location", href: "https://locationjet.matosimport.com", external: true },
   { label: "Services", href: "/services", external: false },
   { label: "Blog", href: "/blog", external: false },
   { label: "Contact", href: "/contact", external: false },
@@ -76,33 +77,7 @@ export default function Navbar() {
             </div>
 
             {/* Actions */}
-            <div className="flex items-center gap-2 sm:gap-3">
-              {/* Search */}
-              <button
-                aria-label="Rechercher"
-                className="flex h-9 w-9 items-center justify-center rounded-full text-gray-400 transition-colors hover:text-white hover:bg-white/10"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="11" cy="11" r="8" />
-                  <path d="m21 21-4.3-4.3" />
-                </svg>
-              </button>
-
-              {/* Cart */}
-              <button
-                aria-label="Panier"
-                className="relative flex h-9 w-9 items-center justify-center rounded-full text-gray-400 transition-colors hover:text-white hover:bg-white/10"
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
-                  <path d="M3 6h18" />
-                  <path d="M16 10a4 4 0 0 1-8 0" />
-                </svg>
-                <span className="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-[10px] font-bold text-white">
-                  0
-                </span>
-              </button>
-
+            <div className="flex items-center">
               {/* Mobile menu toggle */}
               <button
                 aria-label={mobileOpen ? "Fermer le menu" : "Ouvrir le menu"}
