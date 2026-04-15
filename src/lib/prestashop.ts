@@ -45,6 +45,32 @@ export function getYearsForModel(brandName: string, modelName: string): number[]
   return model?.years || [];
 }
 
+/** Get all available years across all brands/models */
+export function getAllYears(): number[] {
+  const yearsSet = new Set<number>();
+  Object.values(CATALOG).forEach((brand) => {
+    brand.models.forEach((model) => {
+      model.years?.forEach((y) => yearsSet.add(y));
+    });
+  });
+  return [...yearsSet].sort((a, b) => b - a);
+}
+
+/** Get brands that have at least one model for the given year */
+export function getBrandsForYear(year: number): string[] {
+  return Object.values(CATALOG)
+    .filter((brand) =>
+      brand.models.some((m) => m.years?.includes(year))
+    )
+    .map((b) => b.brandName);
+}
+
+/** Get models for a brand that exist for the given year */
+export function getModelsForBrandAndYear(brandName: string, year: number): ModelData[] {
+  const models = getModelsForBrand(brandName);
+  return models.filter((m) => m.years?.includes(year));
+}
+
 /**
  * Build a PrestaShop URL for compatibility search
  */
