@@ -121,7 +121,7 @@ Venez essayer avant d'acheter. Notre équipe vous conseille selon votre profil e
     category: "Destination",
     date: "2026-01-10",
     readTime: "6 min",
-    image: "/images/blog/sunset-jetski.jpg",
+    image: "/images/blog/fort-brescou-sunset.jpg",
     content: `## Le Cap d'Agde : un spot idéal
 
 Situé sur la côte languedocienne, le Cap d'Agde offre des conditions parfaites pour le jet-ski :
@@ -205,7 +205,7 @@ On propose un service de gardiennage complet au Cap d'Agde : stockage couvert, h
     category: "Actualité",
     date: "2025-12-01",
     readTime: "6 min",
-    image: "/images/jets/rxt-325.png",
+    image: "/images/blog/rxtx-closeup.jpg",
     content: `## La gamme Sea-Doo 2026 en bref
 
 BRP continue d'innover avec sa gamme 2026. Voici les principales nouveautés annoncées pour cette saison.
@@ -256,7 +256,7 @@ En tant que concessionnaire officiel Sea-Doo, Matos Import dispose de la gamme c
     category: "Guide pratique",
     date: "2026-04-01",
     readTime: "5 min",
-    image: "/images/blog/couple-jetski.jpg",
+    image: "/images/blog/pilote-rxt.jpg",
     content: `## Quel permis pour un jet-ski ?
 
 En France, la réglementation est simple :
