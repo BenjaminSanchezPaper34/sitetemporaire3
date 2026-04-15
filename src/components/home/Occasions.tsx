@@ -38,7 +38,7 @@ export default function Occasions() {
   const displayed = showAll ? OCCASIONS : OCCASIONS.slice(0, 3);
 
   return (
-    <section className="relative py-24 lg:py-32">
+    <section id="occasions" className="relative py-24 lg:py-32 scroll-mt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div data-reveal className="mb-12">
