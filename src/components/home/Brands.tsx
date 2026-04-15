@@ -1,14 +1,14 @@
 "use client";
 
 const BRANDS = [
-  { name: "Sea-Doo", tagline: "Concessionnaire officiel", logo: "/logos/brands/seadoo.jpg" },
-  { name: "Yamaha", tagline: "Pièces adaptables", logo: "/logos/brands/yamaha.jpg" },
-  { name: "Kawasaki", tagline: "Pièces adaptables", logo: "/logos/brands/kawasaki.jpg" },
-  { name: "Riva Racing", tagline: "Performance", logo: "/logos/brands/riva-racing.jpg" },
-  { name: "Jobe", tagline: "Équipements", logo: "/logos/brands/jobe.jpg" },
-  { name: "SBT", tagline: "538 produits", logo: "/logos/brands/sbt.jpg" },
-  { name: "BRP", tagline: "Pièces d'origine", logo: "/logos/brands/brp.jpg" },
-  { name: "WSM", tagline: "512 produits", logo: "/logos/brands/wsm.jpg" },
+  { name: "Sea-Doo", tagline: "Concessionnaire officiel", logo: "/logos/brands/seadoo.svg" },
+  { name: "Yamaha", tagline: "Pièces adaptables", logo: "/logos/brands/yamaha.svg" },
+  { name: "Kawasaki", tagline: "Pièces adaptables", logo: "/logos/brands/kawasaki.svg" },
+  { name: "Riva Racing", tagline: "Performance", logo: "/logos/brands/riva-racing.svg" },
+  { name: "Jobe", tagline: "Équipements", logo: "/logos/brands/jobe.svg" },
+  { name: "SBT", tagline: "538 produits", logo: "/logos/brands/sbt.svg" },
+  { name: "BRP", tagline: "Pièces d'origine", logo: "/logos/brands/brp.svg" },
+  { name: "WSM", tagline: "512 produits", logo: "/logos/brands/wsm.svg" },
 ];
 
 export default function Brands() {
@@ -35,12 +35,12 @@ export default function Brands() {
               href={`/marques/${brand.name.toLowerCase().replace(/\s+/g, "-")}`}
               className="group flex flex-col items-center justify-center rounded-2xl border border-white/5 bg-white/[0.02] p-6 sm:p-8 transition-all duration-300 hover:bg-white/[0.05] hover:border-accent/20"
             >
-              <div className="mb-3 flex h-14 sm:h-16 w-full items-center justify-center rounded-xl bg-white p-3">
+              <div className="mb-3 flex h-10 w-full items-center justify-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={brand.logo}
                   alt={`Logo ${brand.name}`}
-                  className="h-full w-auto max-w-[110px] object-contain opacity-80 transition-all duration-300 group-hover:opacity-100"
+                  className="h-7 w-auto object-contain opacity-50 transition-all duration-300 group-hover:opacity-100"
                   loading="lazy"
                 />
               </div>
