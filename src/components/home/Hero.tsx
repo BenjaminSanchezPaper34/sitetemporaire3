@@ -1,27 +1,32 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { MODELS, buildShopSearchUrl } from "@/lib/prestashop";
+import { getBrandNames, getModelsForBrand, getYearsForModel, buildShopSearchUrl } from "@/lib/prestashop";
 
-const BRANDS = ["Sea-Doo", "Yamaha", "Kawasaki"];
-const YEARS = Array.from({ length: 30 }, (_, i) => `${2026 - i}`);
+const BRANDS = getBrandNames();
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const [activeTab, setActiveTab] = useState<"pieces" | "occasions">("pieces");
 
-  // Configurator state
+  // Cascading filter state
   const [brand, setBrand] = useState("");
-  const [year, setYear] = useState("");
   const [model, setModel] = useState("");
+  const [year, setYear] = useState("");
 
-  const availableModels = brand ? MODELS[brand] || [] : [];
+  const models = brand ? getModelsForBrand(brand) : [];
+  const years = brand && model ? getYearsForModel(brand, model) : [];
 
-  // Reset model when brand changes
   const handleBrandChange = (b: string) => {
     setBrand(b);
     setModel("");
+    setYear("");
+  };
+
+  const handleModelChange = (m: string) => {
+    setModel(m);
+    setYear("");
   };
 
   const handleSearch = () => {
@@ -49,68 +54,48 @@ export default function Hero() {
   }, []);
 
   return (
-    <section
-      ref={sectionRef}
-      className="relative min-h-[100svh] flex flex-col items-center justify-center overflow-hidden"
-    >
-      {/* Video backgrounds */}
+    <section ref={sectionRef} className="relative min-h-[100svh] flex flex-col items-center justify-center overflow-hidden">
       <video className="absolute inset-0 w-full h-full object-cover hidden md:block" autoPlay muted loop playsInline preload="metadata" poster="/videos/poster-desktop.jpg">
         <source src="/videos/hero-desktop.mp4" type="video/mp4" />
       </video>
       <video className="absolute inset-0 w-full h-full object-cover md:hidden" autoPlay muted loop playsInline preload="metadata" poster="/videos/poster-mobile.jpg">
         <source src="/videos/hero-mobile.mp4" type="video/mp4" />
       </video>
-
       <div className="absolute inset-0 bg-black/55" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black pointer-events-none" />
 
-      {/* Content */}
       <div ref={contentRef} className="relative z-10 mx-auto max-w-5xl px-6 text-center hero-content will-change-transform">
-        {/* Badge */}
         <div className="mb-6 sm:mb-8 inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/40 px-3 py-1 sm:px-4 sm:py-1.5 nav-blur">
           <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
-          <span className="text-[10px] sm:text-xs font-medium text-gold/90">
-            Concessionnaire officiel Sea-Doo depuis 1991
-          </span>
+          <span className="text-[10px] sm:text-xs font-medium text-gold/90">Concessionnaire officiel Sea-Doo depuis 1991</span>
         </div>
 
         <h1 className="text-[clamp(32px,7vw,80px)] font-bold leading-[0.95] tracking-[-0.03em] text-white drop-shadow-lg">
-          Votre expert
-          <br />
-          <span className="text-accent">jet-ski</span> en France
+          Votre expert<br /><span className="text-accent">jet-ski</span> en France
         </h1>
 
         <p className="mx-auto mt-4 sm:mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-gray-200 md:text-xl drop-shadow-md">
-          Pièces détachées, jet-skis neufs &amp; occasion, équipements
-          et accessoires pour toutes marques.
+          Pièces détachées, jet-skis neufs &amp; occasion, équipements et accessoires pour toutes marques.
         </p>
 
-        {/* Tabs + Content */}
         <div className="mt-8 sm:mt-10 mx-auto max-w-2xl">
-          {/* Tab switcher */}
           <div className="flex justify-center gap-1 mb-3">
-            <button
-              onClick={() => setActiveTab("pieces")}
-              className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "pieces" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}
-            >
+            <button onClick={() => setActiveTab("pieces")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "pieces" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
               🔧 Trouver mes pièces
             </button>
-            <button
-              onClick={() => setActiveTab("occasions")}
-              className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "occasions" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}
-            >
+            <button onClick={() => setActiveTab("occasions")} className={`rounded-full px-5 py-2 text-xs sm:text-sm font-medium transition-all ${activeTab === "occasions" ? "bg-accent text-white shadow-lg" : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"}`}>
               🚤 Jets occasion
             </button>
           </div>
 
-          {/* Pieces — configurator that redirects to PrestaShop */}
           {activeTab === "pieces" && (
             <div>
               <p className="text-xs sm:text-sm text-gray-300 mb-3 drop-shadow-sm">
-                Sélectionnez votre jet-ski — les pièces compatibles s&apos;affichent sur la boutique
+                Sélectionnez votre jet-ski — seules les combinaisons existantes sont proposées
               </p>
               <div className="rounded-2xl border border-white/15 bg-black/50 p-2 nav-blur">
                 <div className="flex flex-col gap-2 sm:flex-row">
+                  {/* Brand */}
                   <select
                     value={brand}
                     onChange={(e) => handleBrandChange(e.target.value)}
@@ -119,29 +104,36 @@ export default function Hero() {
                     <option value="" disabled>Marque</option>
                     {BRANDS.map((b) => <option key={b} value={b} className="bg-gray-900">{b}</option>)}
                   </select>
+
+                  {/* Model — only shows models for selected brand */}
+                  <select
+                    value={model}
+                    onChange={(e) => handleModelChange(e.target.value)}
+                    disabled={!brand}
+                    className={`flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent ${!brand ? "opacity-40 cursor-not-allowed text-gray-500" : "text-white"}`}
+                  >
+                    <option value="" disabled>{brand ? `${models.length} modèles` : "Modèle"}</option>
+                    {models.map((m) => <option key={m.slug} value={m.name} className="bg-gray-900">{m.name}</option>)}
+                  </select>
+
+                  {/* Year — only shows years for selected model */}
                   <select
                     value={year}
                     onChange={(e) => setYear(e.target.value)}
-                    className="flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm text-white appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent"
+                    disabled={!model || years.length === 0}
+                    className={`flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent ${!model || years.length === 0 ? "opacity-40 cursor-not-allowed text-gray-500" : "text-white"}`}
                   >
-                    <option value="" disabled>Année</option>
-                    {YEARS.map((y) => <option key={y} value={y} className="bg-gray-900">{y}</option>)}
+                    <option value="" disabled>{years.length > 0 ? `${years.length} années` : "Année"}</option>
+                    {years.map((y) => <option key={y} value={y} className="bg-gray-900">{y}</option>)}
                   </select>
-                  <select
-                    value={model}
-                    onChange={(e) => setModel(e.target.value)}
-                    className="flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm text-white appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent"
-                  >
-                    <option value="" disabled>Modèle</option>
-                    {availableModels.map((m) => <option key={m.slug} value={m.label} className="bg-gray-900">{m.label}</option>)}
-                  </select>
+
                   <button
                     onClick={handleSearch}
-                    className="flex items-center justify-center gap-2 rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-accent-hover active:scale-[0.98]"
+                    disabled={!brand}
+                    className={`flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-white transition-all active:scale-[0.98] ${brand ? "bg-accent hover:bg-accent-hover" : "bg-gray-700 cursor-not-allowed opacity-50"}`}
                   >
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <circle cx="11" cy="11" r="8" />
-                      <path d="m21 21-4.3-4.3" />
+                      <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
                     </svg>
                     <span className="hidden sm:inline">Rechercher</span>
                     <span className="sm:hidden">Go</span>
@@ -149,12 +141,11 @@ export default function Hero() {
                 </div>
               </div>
               <p className="mt-2 text-[10px] sm:text-xs text-gray-400/80">
-                Vous serez redirigé vers notre boutique avec les résultats filtrés
+                {brand && model ? "Cliquez sur Rechercher pour voir les pièces compatibles sur la boutique" : "Choisissez une marque pour commencer"}
               </p>
             </div>
           )}
 
-          {/* Occasions CTA */}
           {activeTab === "occasions" && (
             <div>
               <p className="text-xs sm:text-sm text-gray-300 mb-3 drop-shadow-sm">
@@ -164,21 +155,14 @@ export default function Hero() {
                 <div className="flex flex-col items-center gap-4">
                   <div className="flex items-center gap-3 text-gold">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
-                      <path d="m9 12 2 2 4-4" />
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" /><path d="m9 12 2 2 4-4" />
                     </svg>
                     <span className="text-sm font-medium">Révisés en atelier — Garantie concession</span>
                   </div>
-                  <a
-                    href="https://www.leboncoin.fr/recherche?text=matos+import+by+jeff&kst=k"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-accent-hover active:scale-[0.98] w-full sm:w-auto"
-                  >
+                  <a href="https://www.leboncoin.fr/recherche?text=matos+import+by+jeff&kst=k" target="_blank" rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-accent-hover active:scale-[0.98] w-full sm:w-auto">
                     Voir nos occasions sur LeBonCoin
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M7 17L17 7" /><path d="M7 7h10v10" />
-                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
                   </a>
                   <p className="text-[10px] text-gray-500">Annonces mises à jour en temps réel</p>
                 </div>
@@ -188,12 +172,9 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 hidden sm:flex flex-col items-center gap-2">
         <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400/70">Découvrir</span>
-        <svg className="animate-bounce-down text-gray-400/70" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="m6 9 6 6 6-6" />
-        </svg>
+        <svg className="animate-bounce-down text-gray-400/70" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6" /></svg>
       </div>
     </section>
   );
