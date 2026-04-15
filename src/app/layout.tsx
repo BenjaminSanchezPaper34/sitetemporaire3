@@ -59,11 +59,20 @@ export const metadata: Metadata = {
     siteName: "Matos Import by Jeff",
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Matos Import by Jeff — Concessionnaire Sea-Doo au Cap d'Agde",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Matos Import by Jeff — Pièces Jet-Ski",
     description: "Concessionnaire Sea-Doo, 38 000+ pièces détachées jet-ski. Cap d'Agde.",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
