@@ -1,21 +1,12 @@
 "use client";
 
-const BRANDS = [
-  { name: "Sea-Doo", logo: "/logos/brands/seadoo.svg", needsInvert: true },
-  { name: "Yamaha", logo: "/logos/brands/yamaha.svg", needsInvert: true },
-  { name: "Kawasaki", logo: "/logos/brands/kawasaki.svg", needsInvert: true },
-  { name: "Riva Racing", logo: "/logos/brands/riva-racing.svg", needsInvert: false },
-  { name: "Jobe", logo: "/logos/brands/jobe.svg", needsInvert: false },
-  { name: "SBT", logo: "/logos/brands/sbt.svg", needsInvert: false },
-  { name: "BRP", logo: "/logos/brands/brp.svg", needsInvert: false },
-  { name: "WSM", logo: "/logos/brands/wsm.svg", needsInvert: false },
-];
+const BRAND_NAMES = ["Sea-Doo", "Yamaha", "Kawasaki", "Riva Racing", "Jobe", "SBT", "BRP", "WSM"];
 
 const brandsJsonLd = {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
   name: "Matos Import by Jeff",
-  brand: BRANDS.map((b) => ({ "@type": "Brand", name: b.name })),
+  brand: BRAND_NAMES.map((name) => ({ "@type": "Brand", name })),
 };
 
 export default function Brands() {
@@ -36,23 +27,15 @@ export default function Brands() {
           </h2>
         </div>
 
-        <div data-reveal className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 sm:gap-x-14 lg:gap-x-20">
-          {BRANDS.map((brand) => (
-            <div key={brand.name} className="group">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={brand.logo}
-                alt={brand.name}
-                title={brand.name}
-                className={`h-6 sm:h-7 w-auto object-contain transition-opacity duration-300 group-hover:opacity-90 ${
-                  brand.needsInvert
-                    ? "brightness-0 invert opacity-30"
-                    : "opacity-30"
-                }`}
-                loading="lazy"
-              />
-            </div>
-          ))}
+        <div data-reveal className="flex justify-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logos/brands/all-brands.svg"
+            alt="Marques distribuées : Sea-Doo, Yamaha, Kawasaki, Riva Racing, Jobe, SBT, BRP, WSM"
+            title="Nos marques partenaires"
+            className="w-full max-w-3xl h-auto opacity-40 hover:opacity-70 transition-opacity duration-500"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>

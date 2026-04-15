@@ -61,7 +61,7 @@ export default function ConcessionnairePage() {
         </div>
 
         {/* Hommage Jeff */}
-        <div className="mb-20 relative rounded-3xl border border-white/5 bg-white/[0.01] overflow-hidden">
+        <div className="mb-20 relative rounded-3xl border border-gold/10 bg-gradient-to-br from-[#0d0d0f] via-[#111114] to-[#0d0d0f] overflow-hidden shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-0">
             {/* Photo */}
             <div className="lg:col-span-2 relative min-h-[300px] lg:min-h-0">
