@@ -3,6 +3,7 @@
 import { useScrollReveal } from "@/lib/useScrollReveal";
 import Hero from "@/components/home/Hero";
 import Categories from "@/components/home/Categories";
+import Occasions from "@/components/home/Occasions";
 import Brands from "@/components/home/Brands";
 import Trust from "@/components/home/Trust";
 import Testimonials from "@/components/home/Testimonials";
@@ -16,6 +17,7 @@ export default function Home() {
     <>
       <Hero />
       <Categories />
+      <Occasions />
       <Trust />
       <Brands />
       <Testimonials />
