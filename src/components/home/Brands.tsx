@@ -35,12 +35,12 @@ export default function Brands() {
               href={`/marques/${brand.name.toLowerCase().replace(/\s+/g, "-")}`}
               className="group flex flex-col items-center justify-center rounded-2xl border border-white/5 bg-white/[0.02] p-6 sm:p-8 transition-all duration-300 hover:bg-white/[0.05] hover:border-accent/20"
             >
-              <div className="mb-3 flex h-14 sm:h-16 w-full items-center justify-center">
+              <div className="mb-3 flex h-14 sm:h-16 w-full items-center justify-center rounded-xl bg-white p-3">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={brand.logo}
                   alt={`Logo ${brand.name}`}
-                  className="h-10 sm:h-12 w-auto max-w-[120px] object-contain brightness-0 invert opacity-60 transition-all duration-300 group-hover:opacity-100"
+                  className="h-full w-auto max-w-[110px] object-contain opacity-80 transition-all duration-300 group-hover:opacity-100"
                   loading="lazy"
                 />
               </div>
