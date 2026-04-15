@@ -43,9 +43,7 @@ export default function Location() {
               </div>
 
               <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl mb-4 drop-shadow-lg">
-                Envie de piloter&nbsp;?
-                <br />
-                <span className="text-[#36b4a3]">Louez votre jet-ski</span>
+                Envie de piloter&nbsp;? <span className="text-[#36b4a3]">Louez votre jet-ski</span>
               </h2>
 
               <p className="text-gray-300 leading-relaxed mb-6 max-w-md text-sm sm:text-base drop-shadow-md">

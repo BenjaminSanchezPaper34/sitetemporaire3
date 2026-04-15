@@ -46,12 +46,12 @@ export default function Occasions() {
             Concession Sea-Doo
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Jets d&apos;occasion
-            <span className="text-gray-400"> révisés &amp; garantis</span>
+            Jets d&apos;occasion <span className="text-gray-400">révisés &amp; garantis</span>
           </h2>
-          <p className="mt-3 text-sm text-gray-500">
-            {occasionsData.length} jet-skis actuellement disponibles au Cap d&apos;Agde
-          </p>
+          <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5">
+            <span className="text-lg font-bold text-accent">{occasionsData.length}</span>
+            <span className="text-sm text-gray-400">jet-skis disponibles au Cap d&apos;Agde</span>
+          </div>
         </div>
 
         {/* Featured jets — press images */}

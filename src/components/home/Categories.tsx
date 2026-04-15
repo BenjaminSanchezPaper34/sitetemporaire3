@@ -74,9 +74,7 @@ export default function Categories() {
             Catalogue
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Pièces détachées
-            <br />
-            <span className="text-gray-400">par catégorie</span>
+            Pièces détachées <span className="text-gray-400">par catégorie</span>
           </h2>
         </div>
 
