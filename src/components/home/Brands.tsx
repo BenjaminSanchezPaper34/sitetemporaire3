@@ -38,15 +38,15 @@ export default function Brands() {
           </h2>
         </div>
 
-        <div data-reveal className="flex flex-wrap items-center justify-center gap-x-10 gap-y-8 sm:gap-x-14 lg:gap-x-20">
+        <div data-reveal className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 lg:gap-10">
           {BRANDS.map((brand) => (
-            <div key={brand.name} className="group">
+            <div key={brand.name} className="group flex items-center justify-center w-20 h-10 sm:w-28 sm:h-12">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={brand.logo}
                 alt={brand.name}
                 title={brand.name}
-                className="h-6 sm:h-8 w-auto object-contain opacity-40 transition-opacity duration-300 group-hover:opacity-90"
+                className="max-h-full max-w-full object-contain opacity-40 transition-opacity duration-300 group-hover:opacity-90"
                 loading="lazy"
               />
             </div>

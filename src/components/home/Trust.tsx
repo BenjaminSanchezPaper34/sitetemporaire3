@@ -1,10 +1,12 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
+
 const STATS = [
-  { value: "33+", label: "Années d'expertise", description: "Depuis 1991 au Cap d'Agde" },
-  { value: "38 000+", label: "Références en stock", description: "Pièces pour toutes marques" },
-  { value: "60+", label: "Marques distribuées", description: "Sea-Doo, Yamaha, Kawasaki..." },
-  { value: "N°1", label: "En Europe", description: "Leader distribution pièces jet-ski" },
+  { target: 33, suffix: "+", label: "Années d'expertise", description: "Depuis 1991 au Cap d'Agde" },
+  { target: 38000, suffix: "+", label: "Références en stock", description: "Pièces pour toutes marques" },
+  { target: 60, suffix: "+", label: "Marques distribuées", description: "Sea-Doo, Yamaha, Kawasaki..." },
+  { target: 1, suffix: "", prefix: "N°", label: "En Europe", description: "Leader distribution pièces jet-ski" },
 ];
 
 const FEATURES = [
@@ -30,26 +32,61 @@ const FEATURES = [
   },
 ];
 
+function AnimatedCounter({ target, suffix = "", prefix = "" }: { target: number; suffix?: string; prefix?: string }) {
+  const [count, setCount] = useState(0);
+  const ref = useRef<HTMLDivElement>(null);
+  const hasAnimated = useRef(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasAnimated.current) {
+          hasAnimated.current = true;
+          const duration = 2000;
+          const startTime = performance.now();
+
+          const animate = (now: number) => {
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            // Ease out cubic
+            const eased = 1 - Math.pow(1 - progress, 3);
+            setCount(Math.floor(eased * target));
+            if (progress < 1) requestAnimationFrame(animate);
+          };
+
+          requestAnimationFrame(animate);
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [target]);
+
+  const formatted = target >= 1000
+    ? count.toLocaleString("fr-FR").replace(/\s/g, " ")
+    : count;
+
+  return (
+    <div ref={ref} className="text-4xl font-bold tracking-tight text-gold lg:text-5xl tabular-nums">
+      {prefix}{formatted}{suffix}
+    </div>
+  );
+}
+
 export default function Trust() {
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
-      {/* Background image — concession building */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/images/concession/batiment.jpg"
-        alt=""
-        className="absolute inset-0 w-full h-full object-cover"
-        loading="lazy"
-      />
+      <img src="/images/concession/batiment.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
       <div className="absolute inset-0 bg-black/80" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
-        <div data-reveal data-reveal-stagger="true" className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
           {STATS.map((stat) => (
             <div key={stat.label} className="text-center">
-              <div className="text-4xl font-bold tracking-tight text-gold lg:text-5xl">
-                {stat.value}
-              </div>
+              <AnimatedCounter target={stat.target} suffix={stat.suffix} prefix={stat.prefix || ""} />
               <div className="mt-2 text-sm font-semibold text-white">
                 {stat.label}
               </div>
