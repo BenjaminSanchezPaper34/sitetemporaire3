@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
 import { getProductBySlug, products } from "@/lib/products";
+import { buildShopProductUrl } from "@/lib/prestashop";
 import ProductCard from "@/components/product/ProductCard";
 
 export default function ProductPage() {
@@ -11,7 +12,7 @@ export default function ProductPage() {
   const slug = params.slug as string;
   const product = getProductBySlug(slug);
   const [selectedImage, setSelectedImage] = useState(0);
-  const [quantity, setQuantity] = useState(1);
+  const shopUrl = product ? buildShopProductUrl(product.url) : "#";
 
   if (!product) {
     return (
@@ -148,32 +149,23 @@ export default function ProductPage() {
             </div>
 
             {/* Add to cart */}
-            <div className="flex flex-col gap-3 sm:flex-row pt-2">
-              <div className="flex items-center rounded-xl border border-white/10 bg-white/5">
-                <button
-                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                  className="px-4 py-3 text-gray-400 hover:text-white transition-colors"
-                >
-                  −
-                </button>
-                <span className="w-10 text-center text-sm font-medium text-white">
-                  {quantity}
-                </span>
-                <button
-                  onClick={() => setQuantity(quantity + 1)}
-                  className="px-4 py-3 text-gray-400 hover:text-white transition-colors"
-                >
-                  +
-                </button>
-              </div>
-              <button className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-accent px-8 py-3 text-sm font-semibold text-white transition-all hover:bg-accent-hover hover:scale-[1.01] active:scale-[0.99]">
+            <div className="flex flex-col gap-3 pt-2">
+              <a
+                href={buildShopProductUrl(product.url)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-accent px-8 py-3 text-sm font-semibold text-white transition-all hover:bg-accent-hover hover:scale-[1.01] active:scale-[0.99]"
+              >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
                   <path d="M3 6h18" />
                   <path d="M16 10a4 4 0 0 1-8 0" />
                 </svg>
-                Ajouter au panier — {(product.price * quantity).toFixed(2).replace(".", ",")} €
-              </button>
+                Acheter sur la boutique — {product.price.toFixed(2).replace(".", ",")} €
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M7 17L17 7" /><path d="M7 7h10v10" />
+                </svg>
+              </a>
             </div>
 
             {/* Compatibility */}

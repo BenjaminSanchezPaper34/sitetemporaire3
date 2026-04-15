@@ -119,13 +119,14 @@ export default function Categories() {
 
         <div data-reveal data-reveal-delay="0.3" className="mt-12 text-center">
           <a
-            href="/pieces-detachees"
-            className="inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/10 px-8 py-3 text-sm font-medium text-white transition-all hover:bg-white/10 hover:border-white/20"
+            href="https://www.matosimport.com/fr/parts/jet-ski"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 text-sm font-semibold text-white transition-all hover:bg-accent-hover active:scale-[0.98]"
           >
-            Voir tout le catalogue
+            Voir tout le catalogue sur la boutique
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M5 12h14" />
-              <path d="m12 5 7 7-7 7" />
+              <path d="M7 17L17 7" /><path d="M7 7h10v10" />
             </svg>
           </a>
         </div>
