@@ -1,14 +1,14 @@
 "use client";
 
 const BRANDS = [
-  { name: "Sea-Doo", tagline: "Concessionnaire officiel", logo: "/logos/brands/seadoo.svg" },
-  { name: "Yamaha", tagline: "Pièces adaptables", logo: "/logos/brands/yamaha.svg" },
-  { name: "Kawasaki", tagline: "Pièces adaptables", logo: "/logos/brands/kawasaki.svg" },
-  { name: "Riva Racing", tagline: "Performance", logo: "/logos/brands/riva-racing.svg" },
-  { name: "Jobe", tagline: "Équipements", logo: "/logos/brands/jobe.svg" },
-  { name: "SBT", tagline: "538 produits", logo: "/logos/brands/sbt.svg" },
-  { name: "BRP", tagline: "Pièces d'origine", logo: "/logos/brands/brp.svg" },
-  { name: "WSM", tagline: "512 produits", logo: "/logos/brands/wsm.svg" },
+  { name: "Sea-Doo", tagline: "Concessionnaire officiel", logo: "/logos/brands/seadoo.svg", needsInvert: true },
+  { name: "Yamaha", tagline: "Pièces adaptables", logo: "/logos/brands/yamaha.svg", needsInvert: true },
+  { name: "Kawasaki", tagline: "Pièces adaptables", logo: "/logos/brands/kawasaki.svg", needsInvert: true },
+  { name: "Riva Racing", tagline: "Performance", logo: "/logos/brands/riva-racing.svg", needsInvert: false },
+  { name: "Jobe", tagline: "Équipements", logo: "/logos/brands/jobe.svg", needsInvert: false },
+  { name: "SBT", tagline: "538 produits", logo: "/logos/brands/sbt.svg", needsInvert: false },
+  { name: "BRP", tagline: "Pièces d'origine", logo: "/logos/brands/brp.svg", needsInvert: false },
+  { name: "WSM", tagline: "512 produits", logo: "/logos/brands/wsm.svg", needsInvert: false },
 ];
 
 export default function Brands() {
@@ -40,7 +40,11 @@ export default function Brands() {
                 <img
                   src={brand.logo}
                   alt={`Logo ${brand.name}`}
-                  className="h-7 w-auto object-contain opacity-50 transition-all duration-300 group-hover:opacity-100"
+                  className={`h-7 w-auto max-w-[110px] object-contain transition-all duration-300 group-hover:opacity-100 ${
+                    brand.needsInvert
+                      ? "brightness-0 invert opacity-50"
+                      : "opacity-50"
+                  }`}
                   loading="lazy"
                 />
               </div>
