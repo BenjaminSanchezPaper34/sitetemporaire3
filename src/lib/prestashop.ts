@@ -17,15 +17,11 @@ export interface BrandData {
 
 // This will be replaced by the full scraped data
 // For now, import from ukooparts JSON
-import ukoopartsData from "@/data/ukooparts-models.json";
+import ukoopartsData from "@/data/ukooparts-models-with-years.json";
 
 // Build brand→model→years lookup from scraped data
 function buildCatalog(): Record<string, BrandData> {
-  const brands = ukoopartsData.brands as Record<
-    string,
-    { brandName: string; brandSlug: string; models: ModelData[] }
-  >;
-  return brands;
+  return ukoopartsData as Record<string, BrandData>;
 }
 
 export const CATALOG = buildCatalog();
