@@ -56,6 +56,14 @@ export function getAllYears(): number[] {
   return [...yearsSet].sort((a, b) => b - a);
 }
 
+/** Get all years available for a given brand */
+export function getYearsForBrand(brandName: string): number[] {
+  const models = getModelsForBrand(brandName);
+  const yearsSet = new Set<number>();
+  models.forEach((m) => m.years?.forEach((y) => yearsSet.add(y)));
+  return [...yearsSet].sort((a, b) => b - a);
+}
+
 /** Get brands that have at least one model for the given year */
 export function getBrandsForYear(year: number): string[] {
   return Object.values(CATALOG)

@@ -1,32 +1,32 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { getAllYears, getBrandsForYear, getModelsForBrandAndYear, buildShopSearchUrl } from "@/lib/prestashop";
+import { getBrandNames, getYearsForBrand, getModelsForBrandAndYear, buildShopSearchUrl } from "@/lib/prestashop";
 
-const ALL_YEARS = getAllYears();
+const ALL_BRANDS = getBrandNames();
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const [activeTab, setActiveTab] = useState<"pieces" | "occasions" | "location">("pieces");
 
-  // Cascading filter: Année → Marque → Modèle
-  const [year, setYear] = useState("");
+  // Cascading filter: Marque → Année → Modèle
   const [brand, setBrand] = useState("");
+  const [year, setYear] = useState("");
   const [model, setModel] = useState("");
 
   // Filtered options based on selection
-  const brands = year ? getBrandsForYear(Number(year)) : [];
-  const models = year && brand ? getModelsForBrandAndYear(brand, Number(year)) : [];
-
-  const handleYearChange = (y: string) => {
-    setYear(y);
-    setBrand("");
-    setModel("");
-  };
+  const years = brand ? getYearsForBrand(brand) : [];
+  const models = brand && year ? getModelsForBrandAndYear(brand, Number(year)) : [];
 
   const handleBrandChange = (b: string) => {
     setBrand(b);
+    setYear("");
+    setModel("");
+  };
+
+  const handleYearChange = (y: string) => {
+    setYear(y);
     setModel("");
   };
 
@@ -99,35 +99,35 @@ export default function Hero() {
               </p>
               <div className="rounded-2xl border border-white/15 bg-black/50 p-2 nav-blur">
                 <div className="flex flex-col gap-2 sm:flex-row">
-                  {/* 1. Année — first pick */}
-                  <select
-                    value={year}
-                    onChange={(e) => handleYearChange(e.target.value)}
-                    className="flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm text-white appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent"
-                  >
-                    <option value="" disabled>Année</option>
-                    {ALL_YEARS.map((y) => <option key={y} value={y} className="bg-gray-900">{y}</option>)}
-                  </select>
-
-                  {/* 2. Marque — filtered by year */}
+                  {/* 1. Marque — first pick */}
                   <select
                     value={brand}
                     onChange={(e) => handleBrandChange(e.target.value)}
-                    disabled={!year}
-                    className={`flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent ${!year ? "opacity-40 cursor-not-allowed text-gray-500" : "text-white"}`}
+                    className="flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm text-white appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent"
                   >
-                    <option value="" disabled>{year ? `${brands.length} marques` : "Marque"}</option>
-                    {brands.map((b) => <option key={b} value={b} className="bg-gray-900">{b}</option>)}
+                    <option value="" disabled>Marque</option>
+                    {ALL_BRANDS.map((b) => <option key={b} value={b} className="bg-gray-900">{b}</option>)}
                   </select>
 
-                  {/* 3. Modèle — filtered by year + brand */}
+                  {/* 2. Année — filtered by brand */}
                   <select
-                    value={model}
-                    onChange={(e) => setModel(e.target.value)}
+                    value={year}
+                    onChange={(e) => handleYearChange(e.target.value)}
                     disabled={!brand}
                     className={`flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent ${!brand ? "opacity-40 cursor-not-allowed text-gray-500" : "text-white"}`}
                   >
-                    <option value="" disabled>{brand ? `${models.length} modèles` : "Modèle"}</option>
+                    <option value="" disabled>{brand ? `${years.length} années` : "Année"}</option>
+                    {years.map((y) => <option key={y} value={y} className="bg-gray-900">{y}</option>)}
+                  </select>
+
+                  {/* 3. Modèle — filtered by brand + year */}
+                  <select
+                    value={model}
+                    onChange={(e) => setModel(e.target.value)}
+                    disabled={!year}
+                    className={`flex-1 rounded-xl bg-white/10 border border-white/10 px-4 py-3 text-sm appearance-none cursor-pointer transition-colors hover:bg-white/15 focus:outline-none focus:ring-1 focus:ring-accent ${!year ? "opacity-40 cursor-not-allowed text-gray-500" : "text-white"}`}
+                  >
+                    <option value="" disabled>{year ? `${models.length} modèles` : "Modèle"}</option>
                     {models.map((m) => <option key={m.slug} value={m.name} className="bg-gray-900">{m.name}</option>)}
                   </select>
 
@@ -145,7 +145,7 @@ export default function Hero() {
                 </div>
               </div>
               <p className="mt-2 text-[10px] sm:text-xs text-gray-400/80">
-                {brand && model ? "Cliquez sur Rechercher pour voir les pièces compatibles sur la boutique" : brand ? "Choisissez un modèle pour continuer" : year ? "Choisissez une marque" : "Choisissez l'année de votre jet-ski"}
+                {brand && model ? "Cliquez sur Rechercher pour voir les pièces compatibles sur la boutique" : year ? "Choisissez un modèle pour continuer" : brand ? "Choisissez une année" : "Choisissez la marque de votre jet-ski"}
               </p>
             </div>
           )}
